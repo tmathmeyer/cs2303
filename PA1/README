@@ -33,7 +33,13 @@
 			day for the next month, which I worked out and am 
 			calculating with a modulo and turnary statement.
 		2. The Day loop
-			This iterates over each day in the month (which is passed to the function as a parameter). The only changing variable is the day number.
+			This iterates over each day in the month (which is 
+			passed to the function as a parameter). The only 
+			changing variable is the day number.
 		3. The lazy loop
-			I'm calling this the lazy loop because it was the first and easiest to write method that came to my mind for printing the whitespace that precedes the days starting on months when the first is not a sunday. I am refering to this loop:
+			I'm calling this the lazy loop because it was the 
+			first and easiest to write method that came to my 
+			mind for printing the whitespace that precedes the 
+			days starting on months when the first is not a 
+			sunday. I am refering to this loop:
 				while( i < first ){
