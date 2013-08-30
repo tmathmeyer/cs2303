@@ -1,0 +1,39 @@
+#==============================#
+|           Ted Meyer          |
+|            github:           |
+| github.com/tmathmeyer/cs2303 |
+#==============================#
+
+
+
+#===================#
+|      Summary      |
+#===================#
+	It prints a calendar for a year
+
+	The only algorithm that I found online was the one
+	that finds the first day of january for each month.
+	It's pretty basic, and uses the pattern of leap
+	years and numbers of days of months combined with
+	modulo to give a number between 1 and 7.
+
+
+
+
+
+
+#===========================#
+|      Loop Invariants      |
+#===========================#
+	There are three loops in my project:
+		1. the month loop
+			pretty obvious, iterates over the numbers 1-12 in 
+			order to print each month. the only changing 
+			variables are the month number, and the starting 
+			day for the next month, which I worked out and am 
+			calculating with a modulo and turnary statement.
+		2. The Day loop
+			This iterates over each day in the month (which is passed to the function as a parameter). The only changing variable is the day number.
+		3. The lazy loop
+			I'm calling this the lazy loop because it was the first and easiest to write method that came to my mind for printing the whitespace that precedes the days starting on months when the first is not a sunday. I am refering to this loop:
+				while( i < first ){
