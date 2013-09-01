@@ -31,9 +31,6 @@ void insert(char *new, struct node **branch)
 		int result = strcmp((*branch)->word, new);
 		if (result == 0)
 		{
-			if ((*branch)->word_count > 100){
-				printf("%i  %s\n", (*branch)->word_count, (*branch)->word);
-			}
 			(*branch)->word_count = (*branch)->word_count + 1;
 		}
 		else if (result < 0)

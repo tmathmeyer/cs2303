@@ -1,23 +1,12 @@
-     1    "Let
-     1    "rejoicing
-     1    "undo
-     1    (and)
-    49    --
-     3    .
-     1    ...
-     1    Administration,
-     1    Afghanistan.
+    53    
+     1    Administration
+     1    Afghanistan
      3    All
      1    Almighty
-     7    America
-     2    America's
-     3    America.
-     1    American
-     1    American,
-     5    Americans
-     1    Americans.
-     1    Americans:
-     1    Americas.
+    10    America
+     2    American
+     7    Americans
+     3    Americas
     10    And
      1    Arlington
      2    As
@@ -27,24 +16,22 @@
      1    Can
      1    Chief
      1    Christians
-     1    Clergy,
+     1    Clergy
      1    Concord
      1    Divided
      1    Domestic
-     1    Earth.
-     1    Earth;
+     2    Earth
      1    East
-     1    Eisenhower,
-     1    Fathers,
-     2    Finally,
+     1    Eisenhower
+     1    Fathers
+     2    Finally
     11    For
-     1    Forty-four
+     1    Fortyfour
      1    Founding
-     1    Gettysburg;
-     4    God
-     2    God's
-     1    God-given
-     1    God.
+     1    Gettysburg
+     5    God
+     1    Godgiven
+     2    Gods
      1    Gross
      1    Guided
      1    Hemisphere
@@ -54,42 +41,41 @@
      7    I
      1    If
      5    In
-     1    Instead,
+     1    Instead
      1    Iraq
      1    Isaiah
      4    It
      1    Its
      1    Jews
-     1    Johnson,
-     1    Justice,
+     1    Johnson
+     1    Justice
      1    Khe
      1    Less
-     9    Let
-     2    Mr.
+    10    Let
+     2    Mr
      1    Muslim
-     1    Muslims,
+     1    Muslims
      2    My
-     1    Nations,
-     1    Nixon,
+     1    Nations
+     1    Nixon
      2    Nor
      1    Normandy
      1    North
-     1    Now
-     1    Now,
+     2    Now
      2    On
      9    Our
      1    People
      5    President
-     1    Product,
-     1    Rather,
+     1    Product
+     1    Rather
      1    Recall
      1    Reverend
-     1    Sahn.
-     1    Scripture,
+     1    Sahn
+     1    Scripture
      1    Since
      4    So
-     1    South,
-     1    Speaker,
+     1    South
+     1    Speaker
      1    Starting
      1    States
      1    Thank
@@ -104,21 +90,18 @@
      9    To
      1    Today
      1    Together
-     1    Truman,
+     1    Truman
      3    United
      2    Vice
     16    We
-     1    West
-     1    West,
-     1    West;
+     3    West
      3    What
      2    Where
      1    Will
      3    With
-     1    Yet,
-     1    [it]."
+     1    Yet
     77    a
-     1    abandoned.
+     1    abandoned
      1    ability
      1    abolish
      2    absolute
@@ -128,28 +111,23 @@
      1    achieve
      3    across
      1    act
-     1    action,
+     1    action
      1    advance
-     1    advancing.
+     1    advancing
      1    adversaries
-     1    adversary,
-     1    afford
-     1    afford,
+     1    adversary
+     2    afford
      3    again
      3    against
-     1    age
-     2    age.
-     1    ages.
+     3    age
+     1    ages
      1    aggression
-     1    ago
-     1    ago.
+     2    ago
      1    aims
      2    alarmed
-     1    alike,
-    14    all
-     1    all.
-     1    alliance
-     1    alliance,
+     1    alike
+    15    all
+     2    alliance
      1    alliances
      1    allies
      1    alone
@@ -158,25 +136,23 @@
      2    also
      1    alter
      5    always
-     1    ambitions
-     1    ambitions;
+     2    ambitions
      1    amidst
      5    an
-     1    ancestors.
+     1    ancestors
      1    ancient
-   143    and
+   144    and
      2    anew
      2    answer
      1    answered
      8    any
      1    anywhere
      1    apologize
-     1    apply.
+     1    apply
     31    are
      1    area
      1    arguments
-     3    arms
-     1    arms,
+     4    arms
      3    around
      1    arts
     15    as
@@ -186,9 +162,9 @@
      1    assembly
      1    assist
      3    assure
-     1    asunder.
+     1    asunder
      9    at
-     1    atom,
+     1    atom
      1    away
      4    back
      1    bad
@@ -196,19 +172,17 @@
      2    balance
      1    band
      1    based
-     1    battle,
+     1    battle
     19    be
      1    beachhead
      3    bear
     11    because
      1    become
      1    becoming
-    11    been
-     1    been.
+    12    been
      6    before
-     1    began.
-     4    begin
-     1    begin.
+     1    began
+     5    begin
      1    beginning
      1    belaboring
      1    belief
@@ -216,41 +190,35 @@
      2    believe
      1    beneath
      2    best
-     1    bestowed,
+     1    bestowed
      2    better
      3    between
      2    beyond
      2    big
      1    bigger
      1    bind
-     1    birth
-     1    birth,
+     2    birth
      2    bitter
      1    blame
      2    bless
      1    blessing
-     1    blood
-     1    blood.
+     2    blood
      1    bodies
      1    bold
      1    bonds
-     1    border,
-     1    borders;
-     1    born
-     1    born:
+     1    border
+     1    borders
+     2    born
      1    borne
     10    both
      2    brave
-     1    break
-     1    break,
-     1    bridges,
+     2    break
+     1    bridges
      2    bring
      1    brings
-     1    broken;
-     1    build
-     1    build,
-     1    burden
-     1    burden,
+     1    broken
+     2    build
+     2    burden
      1    burdens
      1    business
      1    businesses
@@ -266,41 +234,36 @@
      1    capital
      1    capitals
      2    care
-     1    care's
+     1    cares
      3    carried
      1    carry
      1    cars
      1    casting
-     1    cause,
+     1    cause
      1    celebrated
      2    celebration
-     1    century
-     1    century,
+     2    century
      1    certain
      1    chains
      1    challenge
      2    challenges
      1    chance
-     1    change
-     1    change.
-     1    changed,
+     2    change
+     1    changed
      1    chapter
-     1    character,
-     1    charity,
+     1    character
+     1    charity
      2    charter
-     1    child
-     1    child,
+     2    child
      1    childish
      2    children
-     1    children's
+     1    childrens
      1    choice
      1    choices
      1    choose
      1    chosen
-     3    citizens
-     2    citizens,
-     1    citizens:
-     1    citizenship.
+     6    citizens
+     1    citizenship
      1    city
      1    civil
      1    civility
@@ -311,20 +274,16 @@
      1    collective
      1    colleges
      1    colonial
-     4    come
-     1    come.
+     5    come
      1    comfort
      1    command
-     1    commerce
-     1    commerce.
-     1    committed
-     1    committed,
+     2    commerce
+     2    committed
      7    common
      1    communism
      1    communists
      2    confidence
-     1    conflict
-     1    conflict,
+     2    conflict
      1    conquer
      1    conscience
      1    consequence
@@ -334,55 +293,45 @@
      1    continue
      4    control
      1    convert
-     1    convictions.
+     1    convictions
      3    cooperation
      1    cooperative
      1    corners
      1    corruption
-     1    cost
-     1    cost.
-     1    costly;
+     2    cost
+     1    costly
      1    could
-     4    country
-     1    country,
-     1    country.
-     2    courage
-     1    courage.
-     1    course
-     1    course.
+     6    country
+     3    courage
+     2    course
      1    create
      1    creating
      1    creed
-     3    crisis
-     1    crisis,
+     4    crisis
      1    cultural
-     1    culture,
-     1    curiosity,
-     1    currents,
+     1    culture
+     1    curiosity
+     1    currents
      1    cut
      1    cynics
-     1    danger,
-     1    danger.
-     1    dangers,
+     2    danger
+     1    dangers
      3    dare
      2    dark
      1    darkest
      1    data
-     3    day
-     2    day,
-     1    days,
-     1    days.
+     5    day
+     2    days
      1    deadly
      1    deceit
      1    decent
      1    decides
      1    decisions
      1    decline
-     1    deeds
-     1    deeds,
+     2    deeds
      1    defeat
      1    defending
-     2    defense,
+     2    defense
      1    define
      1    defining
      1    delivered
@@ -393,44 +342,37 @@
      1    depends
      1    depth
      1    depths
-     1    deserts
-     1    deserts,
+     2    deserts
      1    deserve
-     1    destiny.
-     1    destroy
-     1    destroy.
+     1    destiny
+     2    destroy
      1    destruction
      1    determination
      1    devotion
      2    did
-     1    died,
+     1    died
      1    differences
      1    different
      1    difficult
      1    digital
-     1    dignified.
-     1    dignity,
+     1    dignified
+     1    dignity
      1    disciplined
-     1    discord.
-     1    disease
-     1    disease,
-     1    dissent,
-     1    dissolve;
+     1    discord
+     2    disease
+     1    dissent
+     1    dissolve
      1    distant
      1    divide
-    12    do
-     1    do,
-     2    do.
-     1    documents.
-     1    doers,
+    15    do
+     1    documents
+     1    doers
      1    does
-     1    dogmas,
+     1    dogmas
      1    doing
      1    dollars
-     1    done.
-     1    done;
-     2    doubt
-     1    doubt,
+     2    done
+     3    doubt
      1    down
      1    drafted
      1    drawn
@@ -440,83 +382,74 @@
      1    dying
      3    each
      1    earlier
-     1    earned.
-     2    earth
-     1    earth.
+     1    earned
+     3    earth
      1    easily
      3    economy
-     1    effect.
-     1    effort
-     1    effort?
+     1    effect
+     2    effort
      1    efforts
      1    electric
      1    emanates
      1    embattled
      1    embody
      1    emerged
-     1    employed.
+     1    employed
      1    encourage
-     3    end
-     1    end,
-     1    end.
-     1    endeavor
-     1    endeavor,
+     5    end
+     2    endeavor
      1    ended
      1    endure
      1    endured
      2    enduring
      2    enemies
      1    enemy
-     1    energy
-     1    energy,
+     2    energy
      1    engulf
      1    enjoy
      1    enlarge
      1    entitle
-     1    equal,
+     1    equal
      2    era
      1    eradicate
      3    even
     10    every
      1    everywhere
      1    evidence
-     1    example,
+     1    example
      1    exchange
      1    expand
      1    expanded
      1    expect
-     1    expedience's
+     1    expediences
      2    explore
      2    extend
-     1    eye,
+     1    eye
      1    eyes
      2    face
      2    faced
-     1    faction.
-     1    factories.
+     1    faction
+     1    factories
      2    fail
      2    failure
-     1    faint-hearted
+     1    fainthearted
      1    fair
-     2    faith
-     1    faith,
+     3    faith
      2    faithful
      1    fallen
      2    false
-     1    falter;
-     1    fame.
+     1    falter
+     1    fame
      1    families
      4    far
-     1    far-off
-     1    far-reaching
      1    farms
+     1    faroff
+     1    farreaching
      1    fascism
-     1    fate.
+     1    fate
      3    father
      1    favors
-     2    fear
-     1    fear,
-     1    fear.
+     4    fear
      2    feed
      5    fellow
      3    few
@@ -526,18 +459,18 @@
      4    find
      2    finished
      1    fire
-     1    firefighter's
+     1    firefighters
      1    firm
      4    first
-     1    fist.
+     1    fist
      1    fixed
      1    flourish
-     1    flow;
+     1    flow
      2    foe
-     1    foes,
+     1    foes
      1    foolishly
     28    for
-     1    forbearers,
+     1    forbearers
      1    forbears
      3    force
      1    forebears
@@ -550,22 +483,15 @@
      1    formulate
      4    forth
      1    forum
-     1    forward
-     1    forward,
-     1    forward.
+     3    forward
      2    fought
      1    foundation
-     1    founded,
+     1    founded
      1    founding
-     4    free
-     2    free,
-     1    free."
-     6    freedom
-     1    freedom.
-     3    friend
-     1    friend,
-     1    friends
-     1    friends.
+     7    free
+     7    freedom
+     4    friend
+     2    friends
     12    from
      1    fruitful
      1    fuel
@@ -575,28 +501,21 @@
      1    gather
      1    gathering
      1    generate
-     6    generation
-     1    generation.
-     1    generation:
-     2    generations
-     2    generations.
+     8    generation
+     4    generations
      2    generosity
-     1    gift
-     1    gift,
+     2    gift
      2    give
-     1    given.
+     1    given
      1    giving
-     1    gladly,
+     1    gladly
      1    global
-     3    globe
-     1    globe.
+     4    globe
      1    glow
      3    go
-     4    good
-     1    good.
+     5    good
      1    goods
-     2    government
-     1    government.
+     3    government
      2    governments
      1    grace
      1    grand
@@ -614,21 +533,20 @@
      1    ground
      1    groups
      2    grows
-     1    growth.
+     1    growth
      1    grudgingly
      1    guardians
-     1    habits,
+     1    habits
      1    half
      3    hand
-     2    hands
-     1    hands,
-     1    happiness.
+     3    hands
+     1    happiness
      4    hard
-     1    hard-earned
-     2    hardship,
+     1    hardearned
+     2    hardship
      1    harness
     17    has
-     1    hatred.
+     1    hatred
      1    hatreds
     20    have
      1    he
@@ -638,8 +556,7 @@
      1    heed
      1    heirs
      1    held
-     4    help
-     1    help,
+     5    help
      1    helps
      3    here
      2    heritage
@@ -647,23 +564,18 @@
      2    high
      2    his
      1    historic
-     2    history
-     1    history.
-     2    history;
+     5    history
      1    holds
      1    home
      1    honesty
      1    honor
-     6    hope
-     1    hope,
+     7    hope
      1    horizon
      1    host
      1    hostile
-     1    hour
-     1    hour,
-     1    hours
-     1    hours.
-     1    house.
+     2    hour
+     2    hours
+     1    house
      1    how
      1    huddled
      3    human
@@ -675,24 +587,22 @@
      1    hungry
      1    huts
      2    icy
-     1    idea,
-     2    ideals
-     1    ideals.
+     1    idea
+     3    ideals
      2    if
-     1    ill,
-     1    ill.
+     2    ill
      1    ills
      1    imagination
-     1    imagine,
+     1    imagine
     44    in
      1    indicators
      1    indifference
      1    individual
      1    inducing
-     1    inevitable,
+     1    inevitable
      1    inhabit
-     1    innocents,
-     1    inside.
+     1    innocents
+     1    inside
      1    inspection
      2    instead
      3    instruments
@@ -702,21 +612,17 @@
      1    interests
      1    into
      1    invective
-     1    inventive,
+     1    inventive
      1    invoke
      1    iron
      1    irresponsibility
     43    is
      1    issue
-    19    it
-     1    it,
-     2    it.
+    23    it
     13    its
-     1    itself.
-     1    itself;
+     2    itself
      1    job
-     2    jobs
-     1    jobs,
+     3    jobs
      4    join
      1    joined
      3    journey
@@ -727,35 +633,28 @@
      1    keepers
      1    kindness
      1    knew
-     7    know
-     1    know,
+     8    know
      1    knowing
      2    knowledge
-     1    labor,
+     1    labor
      2    land
      1    language
      1    lash
      4    last
-     1    law
-     1    law,
+     2    law
      1    lay
      2    lead
      1    leaders
      1    leave
-     1    legacy.
+     1    legacy
      1    leisure
-     5    less
-     1    less.
+     6    less
      1    lessen
     13    let
      1    levees
-     1    liberty
-     1    liberty,
-     1    liberty.
+     3    liberty
      1    lie
-     2    life
-     1    life,
-     3    life.
+     6    life
      1    lifetime
      4    light
      2    like
@@ -763,30 +662,23 @@
      2    little
      1    live
      1    local
-     5    long
-     1    long,
+     6    long
      2    longer
-     1    look,
+     1    look
      1    lose
-     1    lost;
-     1    love,
+     1    lost
+     1    love
      2    lower
-     2    loyalty
-     1    loyalty.
+     3    loyalty
      1    magnificent
      3    make
      1    makers
-     1    mall,
-     3    man
-     2    man,
-     1    man.
-     1    man:
+     1    mall
+     7    man
      1    manage
-     1    mankind's
-     1    mankind?
-     2    many
-     1    many.
-     1    many;
+     1    mankind
+     1    mankinds
+     4    many
      1    mark
      2    market
      1    mass
@@ -800,27 +692,23 @@
      1    memories
      5    men
      2    merely
-     1    met
-     1    met.
+     2    met
      1    midst
      2    might
      1    mindful
-     1    minds
-     1    minds.
-     1    mine,
-     1    misery,
+     2    minds
+     1    mine
+     1    misery
      1    missiles
      1    modern
      3    moment
-     1    moments,
+     1    moments
      1    month
-     1    months,
-     6    more
-     1    more,
-     2    more.
+     1    months
+     9    more
      1    mortal
      3    most
-     1    mountains.
+     1    mountains
      1    move
      2    much
      9    must
@@ -828,52 +716,42 @@
      3    my
      1    nagging
      1    narrow
-    10    nation
-     4    nation,
+    14    nation
      1    national
-     4    nations
-     1    nations,
-     2    nations.
+     7    nations
      1    nearly
      1    necessity
      1    need
      1    needed
-     1    negotiate
-     1    negotiate.
+     2    negotiate
      1    neighbors
      1    neither
      1    network
      5    never
-    16    new
-     2    new.
+    18    new
      1    next
-     6    no
-     1    no,
+     7    no
      1    noble
-     1    non-believers.
+     1    nonbelievers
      6    nor
     35    not
      2    nothing
      1    nourish
-     5    now
-     1    now.
+     6    now
      1    nuclear
      1    nurture
-     2    oath
-     2    oath.
+     4    oath
      1    obscure
      1    observe
      1    ocean
      1    oceans
      1    odds
    148    of
-     2    off
-     1    off,
+     3    off
      2    offer
-     1    office,
+     1    office
      2    often
-     3    old
-     1    old.
+     4    old
     18    on
      3    once
      5    one
@@ -887,27 +765,23 @@
      5    other
     78    our
      1    ours
-     2    ourselves
-     1    ourselves,
-     4    out
-     1    out,
+     3    ourselves
+     5    out
      1    outcome
      1    outlast
      1    outpaced
      1    outside
      3    over
      1    overburdened
-     2    own
-     1    own.
+     3    own
      1    packed
-     1    parent's
+     1    parents
      2    part
      1    party
-     1    pass;
-     3    passed
-     1    passed.
-     1    past,
-     1    pat,
+     1    pass
+     4    passed
+     1    past
+     1    pat
      1    patchwork
      2    path
      1    patient
@@ -915,13 +789,9 @@
      1    patriots
      1    patrol
      1    pay
-     3    peace
-     3    peace,
-     2    peace.
+     8    peace
      1    peaceful
-     6    people
-     1    people,
-     1    people:
+     8    people
      1    peoples
      1    perhaps
      1    perils
@@ -929,31 +799,25 @@
      1    permit
      1    petty
      1    pick
-     2    place,
+     2    place
      2    places
-     3    planet.
+     3    planet
      1    planned
-     1    plans.
-     1    play
-     1    play,
-     1    please.
+     1    plans
+     2    play
+     1    please
      1    pleasures
      8    pledge
-     1    plenty,
+     1    plenty
      1    plowed
      1    political
-     1    politics.
-     1    poor
-     1    poor,
+     1    politics
+     2    poor
      1    possessions
-     1    poverty
-     1    poverty,
-     1    poverty.
-     8    power
-     1    power,
+     3    poverty
+     9    power
      3    powerful
-     1    powers
-     1    powers.
+     2    powers
      1    precious
      1    precise
      1    precisely
@@ -961,12 +825,11 @@
      1    prepare
      1    prescribed
      1    present
-     1    preserved.
+     1    preserved
      1    presidential
      1    prevent
      1    prey
-     1    price
-     1    price,
+     2    price
      1    principles
      2    problems
      1    proclaim
@@ -975,21 +838,18 @@
      1    programs
      2    progress
      2    promise
-     1    promises,
-     1    proof.
+     1    promises
+     1    proof
      1    proposals
      1    prosper
-     2    prosperity
-     1    prosperity;
-     1    prosperous,
-     1    prosperous.
+     3    prosperity
+     2    prosperous
      1    protect
      1    protecting
      1    proud
      1    prudent
-     1    public's
-     1    purpose
-     1    purpose,
+     1    publics
+     2    purpose
      1    pursue
      1    push
      1    putting
@@ -1010,54 +870,54 @@
      1    ready
      1    reaffirm
      1    reaffirming
-     1    real.
-     1    recognition,
+     1    real
+     1    recognition
      1    recriminations
      1    reform
      1    refused
      1    regard
      1    reject
+     1    rejoicing
      1    relative
-     1    relies.
+     1    relies
      3    remain
      1    remained
      1    remains
      1    remaking
      3    remember
      1    remembering
-     1    remembrance,
+     1    remembrance
      1    reminded
      1    renew
      1    renewal
      1    replaced
      1    republics
-     1    request:
+     1    request
      2    required
      1    resources
-     1    respect.
+     1    respect
      2    responsibility
      1    responsibly
      1    rest
      1    restaurant
      2    restore
-     1    restraint.
+     1    restraint
      1    retirement
      1    return
      1    reveal
-     2    revolution
-     1    revolution.
+     3    revolution
      1    revolutionary
-     1    reward,
-     1    rich.
+     1    reward
+     1    rich
      1    riches
      1    riding
-     1    right.
+     1    right
      1    rightful
      1    rightly
      3    rights
      1    rising
-     1    risk-takers,
-     1    river.
+     1    risktakers
+     1    river
      1    road
      1    roads
      2    role
@@ -1065,8 +925,7 @@
      1    route
      1    rugged
      1    rule
-     1    run
-     1    run.
+     2    run
      1    sacred
      1    sacrifice
      1    sacrificed
@@ -1074,7 +933,7 @@
      1    safely
      1    safety
      1    said
-     1    sake.
+     1    sake
      3    same
      1    sapping
      1    satisfying
@@ -1092,15 +951,14 @@
      6    seek
      1    seeks
      1    sees
-     1    segregation,
+     1    segregation
      1    seize
-     1    self-destruction.
+     1    selfdestruction
      1    selflessness
      2    serious
      1    serve
      1    served
-     2    service
-     1    service;
+     3    service
      1    services
      1    set
      1    settled
@@ -1108,21 +966,19 @@
      8    shall
      1    shape
      1    shaped
-     1    share,
-     1    shed;
+     1    share
+     1    shed
      1    shield
      1    shifted
      1    shores
-     1    short
-     1    short-cuts
-     1    short.
+     2    short
+     1    shortcuts
      1    shown
      1    shrink
-     1    shuttered.
+     1    shuttered
      1    side
-     7    sides
-     1    sides,
-     1    sights.
+     8    sides
+     1    sights
      1    sign
      1    signifying
      1    silencing
@@ -1134,19 +990,16 @@
      1    skill
      1    slaughtering
      1    slow
-     2    small
-     1    small,
-     1    smaller,
-     1    smoke,
+     3    small
+     1    smaller
+     1    smoke
      1    snow
-     6    so
-     1    so,
+     7    so
      1    society
-     1    society's
+     1    societys
      1    soil
      1    solemn
-     2    some
-     1    some,
+     3    some
      1    someday
      2    something
      1    soon
@@ -1160,9 +1013,7 @@
      1    specter
      1    spend
      1    spin
-     3    spirit
-     1    spirit,
-     1    spirit;
+     5    spirit
      1    spiritual
      1    split
      1    spoken
@@ -1173,28 +1024,24 @@
      2    stand
      1    standards
      1    standing
-     1    stars,
+     1    stars
      1    starved
      2    state
-     1    states
-     1    states,
-     1    statistics.
+     2    states
+     1    statistics
      1    stays
      1    steady
      3    still
      1    storm
-     1    storms
-     1    storms.
+     2    storms
      1    stranger
      1    strangled
-     1    strength
-     1    strength,
+     2    strength
      2    strengthen
      1    strong
      2    stronger
      1    strongly
-     1    struggle
-     1    struggle,
+     2    struggle
      1    struggled
      1    struggling
      1    sturdy
@@ -1216,70 +1063,59 @@
      1    surround
      1    survival
      1    survive
-     1    suspicion,
+     1    suspicion
      1    sweatshops
-     1    swift,
+     1    swift
      1    swill
      1    sworn
      1    symbolizing
      1    system
      3    take
      2    taken
-     1    tanks,
+     1    tanks
      1    tap
-     1    task
-     1    task.
+     2    task
      1    tasted
-     1    technology's
+     1    technologys
      1    tell
      1    tempered
      1    tempering
      1    tempt
      2    terror
-     1    terrors.
+     1    terrors
      1    tested
      1    testimony
      9    than
      1    thank
-    66    that
-     1    that,
+    67    that
    205    the
     11    their
      9    them
-     1    themselves
-     1    themselves,
-     1    themselves.
+     3    themselves
      2    then
      5    there
      8    these
     12    they
-     3    things
-     1    things.
-    30    this
-     1    this,
+     4    things
+    31    this
     17    those
      2    though
      1    thousand
-     1    threat,
+     1    threat
      1    threaten
      1    threats
-     1    three-quarters
+     1    threequarters
      4    through
      2    throughout
      1    tides
      1    tiger
      1    till
-     5    time
-     1    time,
-     1    time.
+     7    time
      1    timeless
      1    tirelessly
    103    to
-     5    today
-     2    today,
-     1    today.
-     1    together
-     1    together.
+     8    today
+     2    together
      1    toiled
      1    told
      1    tolerance
@@ -1288,67 +1124,57 @@
      1    torch
      1    towards
      1    transform
-     1    transition.
-     1    traveled
-     1    traveled.
+     1    transition
+     2    traveled
      1    tribe
-     1    tribulation"
-     1    true
-     1    true.
+     1    tribulation
+     2    true
      2    truly
      1    trumpet
      2    trust
-     1    truths.
+     1    truths
      1    turn
      1    twilight
      1    two
-     1    tyranny,
-     1    tyranny.
+     2    tyranny
      1    ultimately
      2    uncertain
      1    unclench
      1    under
      2    understand
      1    understanding
-     1    understood
-     1    understood.
-     1    undiminished.
+     2    understood
+     1    undiminished
+     1    undo
      1    undoing
      1    unfolds
      2    unite
-     1    united,
+     1    united
      1    unity
      1    universities
      1    unleashed
-     1    unmatched,
+     1    unmatched
      1    unpleasant
      1    unwilling
-     4    up
-     1    up,
+     5    up
      3    upon
-    25    us
-     9    us,
-     1    us.
-     1    use
-     1    use;
+    35    us
+     2    use
      1    ushering
      1    values
-     1    ventures.
+     1    ventures
      2    very
      1    victory
-     1    view.
+     1    view
      1    village
      1    villages
      1    violence
-     1    virtue
-     1    virtue,
+     2    virtue
      1    vision
      1    vital
-     1    votes,
-     1    wage,
-     3    war
-     2    war,
-     1    war.
+     1    votes
+     1    wage
+     6    war
      1    warming
      6    was
      1    watchful
@@ -1359,11 +1185,10 @@
      1    ways
     76    we
      2    weak
-     1    weakened,
-     1    weakness,
-     2    weakness.
+     1    weakened
+     3    weakness
      2    wealth
-     1    weapons,
+     1    weapons
      1    week
      2    welcome
      5    well
@@ -1376,8 +1201,7 @@
     11    which
      1    whip
      1    whisper
-    19    who
-     1    who,
+    20    who
      1    whom
      2    whose
      2    why
@@ -1386,45 +1210,35 @@
      2    willing
      2    willingness
      1    winds
-     1    winter
-     1    winter,
-     1    wisely,
+     2    winter
+     1    wisely
      1    wishes
     15    with
      2    without
      1    witness
-     1    woman,
+     1    woman
      4    women
      2    wonders
      2    word
-     4    words
-     1    words.
-     5    work
-     2    work,
+     5    words
+     7    work
      1    worked
      2    workers
      1    works
-     5    world
-     1    world's
-     5    world,
-     2    world.
-     1    world...that
-     1    world:
+    13    world
      1    worldly
+     1    worlds
+     1    worldthat
      1    worn
      3    would
      1    writ
      1    wrong
-     3    year
-     1    year.
+     4    year
      1    years
-     1    yes,
-     2    yet
-     1    yet,
-    16    you
-     1    you,
-     4    you.
+     1    yes
+     3    yet
+    21    you
      2    young
      6    your
 -------------
-  1428	Total number of different words
+  1242	Total number of different words
