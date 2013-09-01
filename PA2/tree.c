@@ -22,7 +22,7 @@ void insert(char *new, struct node **branch)
 	{
 		*branch = (struct node*) malloc(sizeof(struct node));
 		(*branch)->word = new;
-		(*branch)->word_count = (*branch)->word_count + 1;
+		(*branch)->word_count = 1;
 		(*branch)->left = 0;
 		(*branch)->right = 0;
 	}
