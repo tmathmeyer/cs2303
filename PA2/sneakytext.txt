@@ -1,0 +1,24 @@
+hello, my name is Ted.
+This is a simple test.
+the total counts of each word are as follows:
+hello two
+my two
+name two
+is three
+Ted two
+This two
+a two
+simple two
+test two
+the two
+total two
+counts two
+of two
+each two
+word two
+are two
+as two
+follows two
+three two
+two twenty
+twenty two

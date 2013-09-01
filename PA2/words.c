@@ -28,6 +28,9 @@ int main(int argc, char*argv[])
 		fillTree(&root, argv[k]);
 	}
 	
+	int i = strcasecmp("POlish", "polish");
+	printf("%i\n", i);
+
 	//write the tree to file
 	write_tree(argv[1], &root);
 

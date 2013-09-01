@@ -28,7 +28,7 @@ void insert(char *new, struct node **branch)
 	}
 	else
 	{
-		int result = strcmp((*branch)->word, new);
+		int result = strcasecmp((*branch)->word, new);
 		if (result == 0)
 		{
 			(*branch)->word_count = (*branch)->word_count + 1;

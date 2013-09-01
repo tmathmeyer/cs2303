@@ -1,4 +1,4 @@
-CFLAGS = -g
+CFLAGS = -g -m32
 
 
 words: tree.o words.o
