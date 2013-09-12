@@ -56,25 +56,23 @@
 2. The following is the output of running 
 	"make && make clean && ./words out.txt normaltest.txt"
 
-
-
-     2    and
-     1    capitalization
-     1    english
-     1    in
-     2    is
-     1    its
-     1    matters
-     1    of
-     1    one
-     1    only
-     2    Polish
-     1    pronouncation
-     2    set
-     1    that
-     1    there
-     1    to
-     1    where
-     1    words
--------------
-    18	Total number of different words
+	     2    and
+	     1    capitalization
+	     1    english
+	     1    in
+	     2    is
+	     1    its
+	     1    matters
+	     1    of
+	     1    one
+	     1    only
+	     2    Polish
+	     1    pronouncation
+	     2    set
+	     1    that
+	     1    there
+	     1    to
+	     1    where
+	     1    words
+	-------------
+	    18	Total number of different words
