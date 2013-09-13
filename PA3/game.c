@@ -1,10 +1,11 @@
 #include <stdio.h>
 #include <stdlib.h>
+#include <string.h>
 #include "life.h"
 
 int main(int argc, char*argv[])
 {
-
+	// check cmdline args
 	int height = atoi(argv[2]);
 	int width = atoi(argv[1]);
 	int generations = atoi(argv[3]);
@@ -17,10 +18,15 @@ int main(int argc, char*argv[])
 		pause = argv[6][0]=='y';
 	}
 
-	int test[width*height];
-	int test2[width*height];
+	// init the arrays
+	int* grid_a;
+	int* grid_b;
+	int* grid_c;
+	memset(grid_c, 0, width*height);
+	memset(grid_b, 0, width*height);
+	memset(grid_a, 0, width*height);
 
-	read_file(argv[4], width, height, test, test2);
+	grid_a = read_file(argv[4], width, height);
 	run_iterations(test, test2, generations, print, pause);
 
 	return 0;
