@@ -9,18 +9,23 @@ int width;
 // which board is current
 int current_state = 0;
 
-void read_file(char *filename, int w, int h, int* a, int* b)
+int* read_file(char *filename, int w, int h)
 {
-	memset(a,0,w*h);
-	memset(b,0,w*h);
-
+	//stores these for use in other functions
 	width = w;
 	height = h;
-	//init variables
+
+	//creates a temporary array
+	int* array[w*h];
+	memset(array, 0, w*h);
+
+	//open the file
 	FILE *f = fopen(filename, "rt");
+
+	//create some temp variables
 	char temp;
 	int h_t = 0, w_t = 0;
-	int delta_x, delta_y;
+
 
 	while((temp = fgetc(f)) != EOF)
 	{
@@ -32,37 +37,19 @@ void read_file(char *filename, int w, int h, int* a, int* b)
 		else if (temp == '\n' || w_t >= width)
 		{
 			h_t++;
-			delta_x = (w - w_t) / 2;
 			w_t = 0;
 		}
 		else
 		{
-			print_array(a);
-			printf("test\n");
-			put(b, w_t, h_t, temp=='x'?1:0);
+			put(array, w_t, h_t, temp=='x'?1:0);
 			w_t++;
 		}
 	}
 
-	delta_y = (h - h_t) / 2;
-
-	//close the file and exit
+	//close the file
 	fclose(f);
 
-	printf("wewoooo");
-
-	//now we need to center the data
-	int i,j;
-	for(i = 0; i < h - 2*delta_y; i++)
-	{
-		for(j = 0; j < w - 2*delta_x; i++)
-		{
-			put(a, delta_x+j, delta_y+i, get(b, delta_x+j, delta_y+i));
-		}
-	}
-
-	memset(b,0,w*h);
-	
+	return array;
 }
 
 void run_iterations(int* a, int* b, int itr, int print, int pause)
