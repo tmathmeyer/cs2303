@@ -17,16 +17,23 @@ void read_file(char *filename, int w, int h, int* a, int* b)
 	char temp;
 	int h_t = 0, w_t = 0;
 
+	//fill up the arrays (one with 0's, one with the correct data)
 	while((temp = fgetc(f)) != EOF)
 	{
-		if (temp == '\n')
+		if (h_t >= height)
+		{
+			fclose(f);
+			return;
+		}
+		else if (temp == '\n' || w_t >= width)
 		{
 			h_t++;
 			w_t = 0;
 		}
 		else
 		{
-			put(a, w_t, h_t, temp='x'?1:0);
+			print_array(a);
+			put(a, w_t, h_t, temp=='x'?1:0);
 			put(b, w_t, h_t, 0);
 			w_t++;
 		}
@@ -34,6 +41,10 @@ void read_file(char *filename, int w, int h, int* a, int* b)
 
 	//close the file and exit
 	fclose(f);
+
+
+	//now we need to center the data
+	
 }
 
 void run_iterations(int* a, int* b, int itr, int print, int pause)
