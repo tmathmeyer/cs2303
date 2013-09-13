@@ -9,12 +9,6 @@ int width;
 // which board is current
 int current_state = 0;
 
-void blah(int w, int h)
-{
- width = w;
- height = h;
-}
-
 int* read_file(int* array, char *filename, int w, int h)
 {
 	//stores these for use in other functions
@@ -105,7 +99,8 @@ void run_iterations(int* a, int* b, int* c, int itr, int print, int pause)
 
 		if (are_equal(a, b) || are_equal(b, c) || are_equal(c, a))
 		{
-			printf("the game has stabilized on iteration %i of %i\n", i, itr);
+			printf("the game has stabilized on iteration %i of %i\nwith final configuration:\n", i, itr+1);
+			print_array(current_state==1 ? a : (current_state==2 ? b : c));
 			i = itr;
 		}
 		else if (pause){
@@ -116,7 +111,8 @@ void run_iterations(int* a, int* b, int* c, int itr, int print, int pause)
 	}
 	if (!(are_equal(a, b) || are_equal(b, c) || are_equal(c, a)))
 	{
-		printf("the game has finished all %i iterations\n", itr+1);
+		printf("the game has finished all %i iterations\nwith final configuration:\n", itr);
+		print_array(current_state==1 ? a : (current_state==2 ? b : c));
 	}
 }
 

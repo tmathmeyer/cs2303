@@ -11,4 +11,4 @@ life.o: life.h life.c
 	gcc $(CFLAGS) -Wall -c life.c
 
 clean:
-	rm -f *.o *.out
+	rm -f *.o *.out life

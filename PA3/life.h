@@ -7,7 +7,3 @@ int* read_file(int* array, char *filename, int w, int h);
 int get_surrounding(int* test, int x, int y);
 int get(int* test, int x, int y);
 int are_equal(int* a, int* b);
-
-
-
-void blah(int w, int h);

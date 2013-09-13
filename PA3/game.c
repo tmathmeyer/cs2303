@@ -9,8 +9,6 @@ int main(int argc, char*argv[])
 	int height = atoi(argv[2]);
 	int width = atoi(argv[1]);
 	
-	blah(width, height);
-	
 	int generations = atoi(argv[3]);
 	int print = 0;
 	int pause = 0;

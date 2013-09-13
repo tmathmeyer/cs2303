@@ -5,3 +5,52 @@
 |  for CS 2303.                 |
 |  github.com/tmathmeyer/cs2303 |
 +===============================+
+
+This program will run conway's game of life
+through the command line. To do so, first build
+the program using:
+	make && make clean
+
+then run the program as such:
+	./life <x> <y> <itr> <filename> <print> <pause>
+
+if you chose to print the values, be careful that 
+you are using a fixed with font in a terminal that 
+has at least a width equal to x+2. I surrounded each 
+state with a border (like in the header of this file)
+
+there are some example configurations in tests/ as well 
+as a shell script that will run them and pipe them to files
+
+DESIGN CHOICES
+	I used a single array instead of a double array. I 
+	think its a better way to do it, and I talked to 
+	Professor Lauer, and he said it was OK as long as it 
+	worked properly.
+
+LOOP INVARIANTS
+	these are all pretty obvious. most of them are for loops 
+	that go from 0 to a specified width or height. the only 
+	one that is slightly confusing is the while loop for 
+	reading in the file, which tests the equality of a 
+	temporary value with EOF immediatly after that temporary 
+	variable has had the next character stored in it. 
+
+NOTES:
+	in the input files, use x for alive, and o for dead.
+		any other character counts as an o.
+
+	if the grid in the input file is smaller than the
+		dimensions provided, it will be centered.
+
+	DO NOT put in rows with different lengths. I cannot
+		promise that there won't be a segfault for such 
+		silly inputs.
+
+	YOU MUST use a fixed width terminal / text editor. 
+		or else. >:D
+
+	FINALLY I am not checking your inputs. if you dont 
+		put in numbers for x y and iterations, there 
+		will be a segfault. <print> and <pause> are
+		optional, and must be either 'y' to work.
