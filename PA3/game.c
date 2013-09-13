@@ -19,9 +19,9 @@ int main(int argc, char*argv[])
 	}
 
 	// init the arrays
-	int* grid_a[width*height];
-	int* grid_b[width*height];
-	int* grid_c[width*height];
+	int grid_a[width*height];
+	int grid_b[width*height];
+	int grid_c[width*height];
 	memset(grid_c, 0, width*height);
 	memset(grid_b, 0, width*height);
 	memset(grid_a, 0, width*height);
