@@ -9,15 +9,17 @@ int width;
 // which board is current
 int current_state = 0;
 
-int* read_file(char *filename, int w, int h)
+void blah(int w, int h)
+{
+ width = w;
+ height = h;
+}
+
+int* read_file(int* array, char *filename, int w, int h)
 {
 	//stores these for use in other functions
 	width = w;
 	height = h;
-
-	//creates a temporary array
-	int array[w*h];
-	memset(array, 0, w*h);
 
 	//open the file
 	FILE *f = fopen(filename, "rt");
@@ -25,7 +27,7 @@ int* read_file(char *filename, int w, int h)
 	//create some temp variables
 	char temp;
 	int h_t = 0, w_t = 0;
-
+	int w_r;
 
 	while((temp = fgetc(f)) != EOF)
 	{
@@ -37,6 +39,7 @@ int* read_file(char *filename, int w, int h)
 		else if (temp == '\n' || w_t >= width)
 		{
 			h_t++;
+			w_r = w_t;
 			w_t = 0;
 		}
 		else
@@ -48,11 +51,28 @@ int* read_file(char *filename, int w, int h)
 
 	//close the file
 	fclose(f);
+	
+	//time to center the arrays
+	int m_b_a = ((h-h_t)/2)*w + (w-w_r)/2;
+	int i = w*h;
+	for(; i >= 0; i--)
+	{
+		if ((i-m_b_a) >=0)
+		{
+			array[i] = array[i-m_b_a];
+		}
+		else {
+			array[i] = 0;
+		}
+	}
+	
+
+
 
 	return array;
 }
 
-void run_iterations(int* a, int* b, int itr, int print, int pause)
+void run_iterations(int* a, int* b, int* c, int itr, int print, int pause)
 {	
 	
 	int i;
@@ -66,19 +86,25 @@ void run_iterations(int* a, int* b, int itr, int print, int pause)
 			iterate(a, b);
 			current_state = 1;
 		}
-		else
+		else if (current_state == 1)
 		{
 			if (print) {
 				print_array(b);
 			}
-			iterate(b, a);
+			iterate(b, c);
+			current_state = 2;
+		}
+		else
+		{
+			if (print) {
+				print_array(c);
+			}
+			iterate(c, a);
 			current_state = 0;
 		}
 
-		if (are_equal(a, b))
+		if (are_equal(a, b) || are_equal(b, c) || are_equal(c, a))
 		{
-			print_array(a);
-			print_array(b);
 			printf("the game has stabilized on iteration %i of %i\n", i, itr);
 			i = itr;
 		}
@@ -88,9 +114,9 @@ void run_iterations(int* a, int* b, int itr, int print, int pause)
 			printf("\f");
 		}
 	}
-	if (!are_equal(a, b))
+	if (!(are_equal(a, b) || are_equal(b, c) || are_equal(c, a)))
 	{
-		printf("the game has finished all %i iterations\n", itr);
+		printf("the game has finished all %i iterations\n", itr+1);
 	}
 }
 
@@ -103,7 +129,6 @@ void iterate(int* B, int* D)
 		for(j = 0; j < width; j++)
 		{
 			int s = get_surrounding(B, j, i);
-			print_array(B);
 			if (get(B, j, i) == 1)
 			{
 				if (s > 3 || s < 2)
@@ -185,8 +210,8 @@ void print_array(int* test)
 		printf("|");
 		for(j = 0; j < width; j++)
 		{
-			//char c = get(test, j, i);
-			printf("%c ", get(test, j, i)==1?'X':' ');
+			int c = get(test, j, i);
+			printf("%c ", c==1?'X':' ');
 		}
 		printf("|\n");
 	}
