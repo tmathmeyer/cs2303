@@ -38,7 +38,8 @@ void read_file(char *filename, int w, int h, int* a, int* b)
 		else
 		{
 			print_array(a);
-			put(a, w_t, h_t, temp=='x'?1:0);
+			printf("test\n");
+			put(b, w_t, h_t, temp=='x'?1:0);
 			w_t++;
 		}
 	}
@@ -48,17 +49,19 @@ void read_file(char *filename, int w, int h, int* a, int* b)
 	//close the file and exit
 	fclose(f);
 
+	printf("wewoooo");
+
 	//now we need to center the data
 	int i,j;
 	for(i = 0; i < h - 2*delta_y; i++)
 	{
 		for(j = 0; j < w - 2*delta_x; i++)
 		{
-			put(b, delta_x+j, delta_y+i, get(delta_x+j, delta_y+i));
+			put(a, delta_x+j, delta_y+i, get(b, delta_x+j, delta_y+i));
 		}
 	}
 
-	memset(a,0,w*h);
+	memset(b,0,w*h);
 	
 }
 
