@@ -77,6 +77,8 @@ void run_iterations(int* a, int* b, int itr, int print, int pause)
 
 		if (are_equal(a, b))
 		{
+			print_array(a);
+			print_array(b);
 			printf("the game has stabilized on iteration %i of %i\n", i, itr);
 			i = itr;
 		}
@@ -101,6 +103,7 @@ void iterate(int* B, int* D)
 		for(j = 0; j < width; j++)
 		{
 			int s = get_surrounding(B, j, i);
+			print_array(B);
 			if (get(B, j, i) == 1)
 			{
 				if (s > 3 || s < 2)
