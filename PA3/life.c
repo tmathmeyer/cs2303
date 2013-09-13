@@ -26,6 +26,7 @@ void read_file(char *filename, int w, int h, int* a, int* b)
 		}
 		else
 		{
+			printf("%c", temp);
 			put(a, w_t, h_t, temp='x'?1:0);
 			put(b, w_t, h_t, 0);
 			w_t++;
