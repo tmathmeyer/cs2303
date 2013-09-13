@@ -20,11 +20,10 @@ int main(int argc, char*argv[])
 
 	// init the arrays
 	int *grid_a = read_file(argv[4], width, height);
-	int* grid_b[width*height];
-	int* grid_c[width*height];
+	int grid_b[width*height];
+	int grid_c[width*height];
 	memset(grid_c, 0, width*height);
 	memset(grid_b, 0, width*height);
-	memset(grid_a, 0, width*height);
 
 	
 	run_iterations(grid_a, grid_b, generations, print, pause);
