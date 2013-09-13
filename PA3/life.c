@@ -16,7 +16,7 @@ int* read_file(char *filename, int w, int h)
 	height = h;
 
 	//creates a temporary array
-	int* array;
+	int* array[w*h];
 	memset(array, 0, w*h);
 
 	//open the file
