@@ -11,8 +11,8 @@ int current_state = 0;
 
 void read_file(char *filename, int w, int h, int* a, int* b)
 {
-	memset(a,0,sizeof(a));
-	memset(b,0,sizeof(b));
+	memset(a,0,w*h);
+	memset(b,0,w*h);
 
 	width = w;
 	height = h;
@@ -58,7 +58,7 @@ void read_file(char *filename, int w, int h, int* a, int* b)
 		}
 	}
 
-	memset(a,0,sizeof(a));
+	memset(a,0,w*h);
 	
 }
 
