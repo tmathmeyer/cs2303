@@ -15,21 +15,20 @@ void read_file(char *filename, int w, int h, int* a, int* b)
 	//init variables
 	FILE *f = fopen(filename, "rt");
 	char temp;
-	int h_t, w_t;
+	int h_t = 0, w_t = 0;
 
-	for(h_t = 0; h_t < h; h_t++)
+	while((temp = fgetc(f)) != EOF)
 	{
-		for(w_t = 0; w_t < w; w_t++)
+		if (temp == '\n')
 		{
-			temp = fgetc(f);
-			if (temp == EOF) {
-				return;
-			}
-			if (temp == '\n'){
-				temp = fgetc(f);
-			}
-			put(a, w_t, h_t, temp=='x'?1:0);
+			h_t++;
+			w_t = 0;
+		}
+		else
+		{
+			put(a, w_t, h_t, temp='x'?1:0);
 			put(b, w_t, h_t, 0);
+			w_t++;
 		}
 	}
 
