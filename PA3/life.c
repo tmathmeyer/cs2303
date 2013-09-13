@@ -62,8 +62,8 @@ void run_iterations(int* a, int* b, int itr, int print, int pause)
 
 		if (are_equal(a, b))
 		{
-			i = itr;
 			printf("the game has stabilized on iteration %i of %i\n", i, itr);
+			i = itr;
 		}
 		else if (pause){
 			printf("please press the anykey to continue");
