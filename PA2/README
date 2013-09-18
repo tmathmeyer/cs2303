@@ -17,6 +17,12 @@
 		2. caps dont matter
 			this == This
 
+	HEADS UP
+		throughout this readme, I talk about running this 
+		program via command line. when I wrote this, It was 
+		still assignment number two, and hadn't been switched 
+		to eclipse yet. just put everything after ./words into 
+		the arguments list in eclipse to run it there.
 
 
 #===================#
@@ -76,3 +82,9 @@
 	     1    words
 	-------------
 	    18	Total number of different words
+	    
+	    
+
+my favourite combination, personally, is running 
+	./words out.txt sneakytext.txt sneakier
+

@@ -11,4 +11,4 @@ words.o: tree.h words.c
 	gcc $(CFLAGS) -Wall -c words.c
 
 clean:
-	rm -f tree.o words.o out.txt
+	rm -f *.o out.txt

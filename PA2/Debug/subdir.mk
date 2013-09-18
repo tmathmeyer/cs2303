@@ -3,17 +3,21 @@
 ################################################################################
 
 # Add inputs and outputs from these tool invocations to the build variables 
+O_SRCS += \
+../tree.o \
+../words.o 
+
 C_SRCS += \
-../intarray.c \
-../sinewave.c 
+../tree.c \
+../words.c 
 
 OBJS += \
-./intarray.o \
-./sinewave.o 
+./tree.o \
+./words.o 
 
 C_DEPS += \
-./intarray.d \
-./sinewave.d 
+./tree.d \
+./words.d 
 
 
 # Each subdirectory must supply rules for building sources it contributes
