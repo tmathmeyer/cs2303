@@ -1,0 +1,90 @@
+#==============================#
+|           Ted Meyer          |
+|            github:           |
+| github.com/tmathmeyer/cs2303 |
+#==============================#
+
+
+
+#===================#
+|      Summary      |
+#===================#
+	This program takes the content of any given number of text 
+	files and counts the instances of each word as well as the 
+	total number of distinct words, given the following caveats:
+		1. no punctuation:
+			it's == its
+		2. caps dont matter
+			this == This
+
+	HEADS UP
+		throughout this readme, I talk about running this 
+		program via command line. when I wrote this, It was 
+		still assignment number two, and hadn't been switched 
+		to eclipse yet. just put everything after ./words into 
+		the arguments list in eclipse to run it there.
+
+
+#===================#
+|       tests       |
+#===================#
+
+1. The following is the output of running 
+	"make && make clean && ./words out.txt sneakytext.txt"
+
+         2    a
+	     2    are
+	     2    as
+	     2    counts
+	     2    each
+	     2    follows
+	     2    hello
+	     3    is
+	     2    my
+	     2    name
+	     2    of
+	     2    simple
+	     2    Ted
+	     2    test
+	     2    the
+	     2    This
+	     2    three
+	     2    total
+	     2    twenty
+	    20    two
+	     2    word
+	-------------
+	    21	Total number of different words
+
+	to compare this result, check the file "sneakytext.txt", because it gives each of these counts written out in words
+
+
+2. The following is the output of running 
+	"make && make clean && ./words out.txt normaltest.txt"
+
+	     2    and
+	     1    capitalization
+	     1    english
+	     1    in
+	     2    is
+	     1    its
+	     1    matters
+	     1    of
+	     1    one
+	     1    only
+	     2    Polish
+	     1    pronouncation
+	     2    set
+	     1    that
+	     1    there
+	     1    to
+	     1    where
+	     1    words
+	-------------
+	    18	Total number of different words
+	    
+	    
+
+my favourite combination, personally, is running 
+	./words out.txt sneakytext.txt sneakier
+
