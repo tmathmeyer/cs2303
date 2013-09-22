@@ -12,6 +12,7 @@ void prune(struct node *branch)
 	{
 		prune(branch->left);
 		prune(branch->right);
+		free(branch->word);
 		free(branch);
 	}
 }

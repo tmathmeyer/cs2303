@@ -1,0 +1,40 @@
+Program plan:
+
+add all the customer arrivals at once, sorted by arrival time
+	time = TIME ENTERING BANK
+			or
+	time = TIME LEAVING BANK
+
+create a teller event for each teller with a random end time
+	time = TELLER AVAILIBLE
+
+
+
+clock = integer
+ starts at 0
+
+unsorted queues (bank lines)
+ one, or one for each teller
+
+
+
+pull first item off queue
+	if it is a TELLER:
+		if there is an availible customer:
+			insert new customer event for leaving time
+		else
+			insert new teller event with random idle time
+
+	if it is a CLIENT:
+		if it is an entering event:
+			get shortest queue, insert customer at the end of it
+		if it is a leaving time:
+			insert a teller event with time = current clock value
+
+
+to get random:
+
+	rand() % (max_time-clock) + clock
+
+
+
