@@ -36,37 +36,18 @@ int main(int argc, char*argv[])
 	return 0;
 }
 
-int read_words(char *filename, char *words[], int max_count)
-{
-	//init variables
-	FILE *f = fopen(filename, "rt");
-	int i = 0;
-	char temp[100];
-	//scan through the file
-	while (fscanf(f, "%s", temp) != -1)
-	{
-		words[i] = strdup(temp);
-		i++;
-	}
-	//close the file and exit
-	fclose(f);
-	return i;
-}
-
 
 
 void fillTree(struct node **tree, char *filename)
 {
-	//iniv cariables *no more than 20000 words per file*
-	char *words[200000];
-	int count = read_words(filename, words, 200000);
-	int i;
-	//read words, trim them, and insert them into the tree
-	for (i = 0; i < count; i++)
+	FILE *f = fopen(filename, "rt");
+	char temp[100]; //max length word
+	while(fscanf(f, "%s", temp) != -1)
 	{
-		remove_punctuation(words[i]);
-		insert(words[i], tree);
+		remove_punctuation(temp);
+		insert(strdup(temp), tree);
 	}
+	fclose(f);
 }
 
 
