@@ -18,16 +18,9 @@ void BankEvent::onCompletion(EventQueue* eq, int v, int clock)
     //nothing here :D
 }
 
-void TellerEvent::onCompletion(EventQueue* eq, int v, int clock)
+void TellerEvent::onCompletion()
 {
-    int AVG_SVC_TME = 20;
-    if (v)
-    {
-        int svc_end = rand() % AVG_SVC_TME + clock;
-        TellerEvent* te = new TellerEvent();
-        te->setTime(svc_end);
-        eq->insert(te);
-    }
+    
 
 }
 
@@ -75,4 +68,10 @@ int EventQueue::insert(BankEvent* e)
 int EventQueue::hasNext()
 {
     return next != NULL;
+}
+
+EventQueue(BankEvent* e);
+{
+    data = e;
+    next = NULL;
 }
