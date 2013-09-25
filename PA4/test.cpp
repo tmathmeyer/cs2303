@@ -21,13 +21,24 @@ int main(){
         q.insert(a);
     }
 
-    cout << q.getData().getTime() << endl;
-    cout << q.getNext().getData().getTime() << endl;
-    cout << q.getNext().getNext().getData().getTime() << endl;
-    cout << q.getNext().getNext().getNext().getData().getTime() << endl;
-    cout << q.getNext().getNext().getNext().getNext().getData().getTime() << endl;
-    cout << q.getNext().getNext().getNext().getNext().getNext().getData().getTime() << endl;
-    cout << q.getNext().getNext().getNext().getNext().getNext().getNext().getData().getTime() << endl;
-    cout << q.getNext().getNext().getNext().getNext().getNext().getNext().getNext().getData().getTime() << endl;
-    cout << q.getNext().getNext().getNext().getNext().getNext().getNext().getNext().getNext().getData().getTime() << endl;
+
+    while(q.hasNext())
+    {
+	    cout << q.getData().getTime() << endl;
+	    q.getData().onCompletion(&q);
+	    q = *(q.next);
+    }
+}
+
+
+
+void BankEvent::onCompletion(EventQueue* e)
+{
+	if (rand()%2==0)
+	{
+		TellerEvent* be = new TellerEvent();
+		be->setTime(rand()%200+getTime());
+		e->insert(be);
+		cout << "new event added!" << endl;
+	}
 }

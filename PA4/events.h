@@ -1,7 +1,7 @@
 #include <stdlib.h>
 
 
-
+class EventQueue;
 
 //parent class for events
 class BankEvent
@@ -12,7 +12,7 @@ class BankEvent
         int getTime();
         int setTime(int t);
         BankEvent();
-        void onCompletion();
+        void onCompletion(EventQueue* eq);
 };
 
 //subclass for teller-based events
@@ -89,10 +89,6 @@ int BankEvent::setTime(int t)
 BankEvent::BankEvent()
 {
     time = 0;
-}
-void BankEvent::onCompletion()
-{
-    //nothing here :D
 }
 
 
