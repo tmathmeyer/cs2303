@@ -10,8 +10,6 @@ int* queues;
 int  queuecount;
 int  clck = 0;
 
-
-void testQueue();
 int getShortestLine();
 int increment(int place);
 int decriment(int place);
@@ -20,7 +18,6 @@ void addUsers(EventQueue* eq, int cc, int max);
 
 
 int main(){
-    //testQueue();
     int max = 100;
 
     CustomerEvent* a = new CustomerEvent(0,0);
@@ -91,4 +88,55 @@ void CustomerEvent::onCompletion(EventQueue* e)
 void BankEvent::onCompletion(EventQueue* e)
 {
     cout << "this should never be called!" << endl;
+}
+
+
+
+
+
+
+
+
+
+int getShortestLine()
+{
+    int minVal= *queues;
+    int minPla=0;
+    for(int i = 1; i < queuecount; i++)
+    {
+        if (*(queues+i) < minVal)
+        {
+            minVal = *(queues+1);
+            minPla = i;
+        }
+    }
+    return minPla;
+}
+
+int increment(int place)
+{
+    queues[place]++;
+    return getVal(place);
+}
+
+int decriment(int place)
+{
+    queues[place]--;
+    return getVal(place);
+}
+
+int getVal(int place)
+{
+    return queues[place];
+}
+
+void addUsers(EventQueue* eq, int cc, int max)
+{
+    for(int i = 0; i < cc; i++)
+    {
+        int r = rand() % max;
+        CustomerEvent* a = new CustomerEvent(0,0);
+        a->setTime(r);
+        eq->insert(a);
+    }
 }

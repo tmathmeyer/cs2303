@@ -10,7 +10,7 @@ class EventQueue
         EventQueue   getNext();
         int insert   (BankEvent* e);
         int hasNext  ();
-        EventQueue   (BankEvent* e);
+        EventQueue(BankEvent* e);
 };
 
 
