@@ -12,7 +12,8 @@ class BankEvent
         int getTime();
         int setTime(int t);
         BankEvent();
-        virtual void onCompletion(EventQueue* eq){}
+        virtual void onCompletion(EventQueue* eq);
+        int kty;
 };
 
 //subclass for teller-based events
@@ -24,6 +25,7 @@ class TellerEvent : public BankEvent
         TellerEvent(int q)
         {
             queue = q;
+            kty = 1;
         }
 };
 
@@ -42,6 +44,7 @@ class CustomerEvent : public BankEvent
         {
             type = t;
             queue = q;
+            kty = 2;
         }
 };
 

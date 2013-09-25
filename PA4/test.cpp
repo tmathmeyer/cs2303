@@ -2,21 +2,43 @@
 #include <iostream>
 #include <stdlib.h>
 #include <time.h>
+#include <stdio.h>
 
 using namespace std;
 
 int* queues;
 int  queuecount;
-int clock = 0;
+int  clck = 0;
+
+
+void testQueue();
+int getShortestLine();
+int increment(int place);
+int decriment(int place);
+int getVal(int place);
+void addUsers(EventQueue* eq, int cc, int max);
 
 
 int main(){
-    testQueue();
+    //testQueue();
+    int max = 100;
+
+    CustomerEvent* a = new CustomerEvent(0,0);
+    a->setTime(rand() % max);
+    EventQueue eq(a);
 
     //insert all customers as entering events
+    addUsers(&eq, 99, max);
 
     //while(eventQueue.hasNext())
         //oncompletion the event, remove it
+    while(eq.hasNext())
+    {
+        cout << eq.getData().getTime() << endl;
+        eq.getData().onCompletion(&eq);
+        eq = *(eq.next);
+        getchar();
+    }
 
     //run stats
     //???
@@ -35,7 +57,7 @@ void TellerEvent::onCompletion(EventQueue* e)
     if (getVal(queue) == 0)
     { //there is nobody in line!
         TellerEvent* te = new TellerEvent(queue);
-        int ra = clock+1+rand()%150;
+        int ra = clck+1+rand()%150;
         te->setTime(ra);
         e->insert(te);
         cout << "Due to lack of customers, a teller has gone idle!" << endl;
@@ -43,7 +65,7 @@ void TellerEvent::onCompletion(EventQueue* e)
     else
     { //there is a customer in line
         int avg;
-        int ra = rand()%avg + clock;
+        int ra = rand()%avg + clck;
         CustomerEvent* ce = new CustomerEvent(1, queue);
         ce->setTime(ra);
         e->insert(ce);
@@ -61,11 +83,17 @@ void CustomerEvent::onCompletion(EventQueue* e)
     else
     { //leaving
         TellerEvent* te = new TellerEvent(queue);
-        te->setTime(clock);
+        te->setTime(clck);
         e->insert(te);
         cout << "a customer has left the bank" << endl;
     }
 }
+
+void BankEvent::onCompletion(EventQueue* e)
+{
+    cout << "this should never be called!" << endl;
+}
+
 
 int getShortestLine()
 {
@@ -91,7 +119,7 @@ int increment(int place)
 int decriment(int place)
 {
     queues[place]--;
-    return getVal(palce);
+    return getVal(place);
 }
 
 int getVal(int place)
@@ -105,7 +133,16 @@ int getVal(int place)
 
 
 
-
+void addUsers(EventQueue* eq, int cc, int max)
+{
+    for(int i = 0; i < cc; i++)
+    {
+        int r = rand() % max;
+        CustomerEvent* a = new CustomerEvent(0,0);
+        a->setTime(r);
+        eq->insert(a);
+    }
+}
 
 
 
