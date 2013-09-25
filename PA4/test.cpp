@@ -35,7 +35,17 @@ int main(){
     while(eq.hasNext())
     {
         cout << eq.getData().getTime() << endl;
-        eq.getData().onCompletion(&eq);
+        BankEvent be = eq.getData();
+        if (be.kty == 1)
+        { //teller
+            TellerEvent* te = &be;
+            te->onCompletion(&eq);
+        }
+        else if (be.kty == 2)
+        {
+            CustomerEvent* ce = &be;
+            ce->onCompletion(&eq);
+        }
         eq = *(eq.next);
         getchar();
     }

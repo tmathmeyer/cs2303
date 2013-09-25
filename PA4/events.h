@@ -12,7 +12,7 @@ class BankEvent
         int getTime();
         int setTime(int t);
         BankEvent();
-        virtual void onCompletion(EventQueue* eq);
+        void onCompletion(EventQueue* eq);
         int kty;
 };
 
