@@ -12,16 +12,38 @@ class BankEvent
         int getTime();
         int setTime(int t);
         BankEvent();
-        void onCompletion(EventQueue* eq);
+        virtual void onCompletion(EventQueue* eq){}
 };
 
 //subclass for teller-based events
 class TellerEvent : public BankEvent
-{};
+{
+    public:
+        int queue;
+        void onCompletion(EventQueue* eq);
+        TellerEvent(int q)
+        {
+            queue = q;
+        }
+};
 
 //sub class for customer-based events
 class CustomerEvent : public BankEvent
-{};
+{
+    public:
+        int type; //0=entering, 1=leaving
+        int queue;
+        int getType()
+        {
+            return type;
+        }
+        void onCompletion(EventQueue* eq);
+        CustomerEvent(int t, int q)
+        {
+            type = t;
+            queue = q;
+        }
+};
 
 
 
