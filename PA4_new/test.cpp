@@ -1,4 +1,4 @@
-#include "events.h"
+#include "Event.h"
 #include <iostream>
 #include <stdlib.h>
 #include <time.h>
@@ -35,18 +35,7 @@ int main(){
     while(eq.hasNext())
     {
         cout << eq.getData()->getTime() << endl;
-        BankEvent* be = eq.getData();
-        if (be->kty == 1)
-        { //teller
-            TellerEvent* te = be;
-            te->onCompletion(&eq);
-        }
-        else if (be->kty == 2)
-        {
-            CustomerEvent* ce = be;
-            ce->onCompletion(&eq);
-        }
-        eq = *(eq.next);
+        eq.getData()->onCompletion(&eq);
         getchar();
     }
 
@@ -102,89 +91,4 @@ void CustomerEvent::onCompletion(EventQueue* e)
 void BankEvent::onCompletion(EventQueue* e)
 {
     cout << "this should never be called!" << endl;
-}
-
-
-int getShortestLine()
-{
-    int minVal= *queues;
-    int minPla=0;
-    for(int i = 1; i < queuecount; i++)
-    {
-        if (*(queues+i) < minVal)
-        {
-            minVal = *(queues+1);
-            minPla = i;
-        }
-    }
-    return minPla;
-}
-
-int increment(int place)
-{
-    queues[place]++;
-    return getVal(place);
-}
-
-int decriment(int place)
-{
-    queues[place]--;
-    return getVal(place);
-}
-
-int getVal(int place)
-{
-    return queues[place];
-}
-
-
-
-
-
-
-
-void addUsers(EventQueue* eq, int cc, int max)
-{
-    for(int i = 0; i < cc; i++)
-    {
-        int r = rand() % max;
-        CustomerEvent* a = new CustomerEvent(0,0);
-        a->setTime(r);
-        eq->insert(a);
-    }
-}
-
-
-
-
-
-
-
-
-
-
-void testQueue()
-{
-    srand (time(NULL));
- 
-    BankEvent* a = new BankEvent();
-    a->setTime(234);
-    EventQueue q(a);
-
-
-    for(int i = 0; i < 20; i++)
-    {
-        int r = rand() % 400;
-        BankEvent* a = new BankEvent();
-        a->setTime(r);
-        q.insert(a);
-    }
-
-
-    while(q.hasNext())
-    {
-        cout << q.getData()->getTime() << endl;
-        q.getData()->onCompletion(&q);
-        q = *(q.next);
-    }
 }

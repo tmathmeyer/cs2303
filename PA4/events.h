@@ -62,7 +62,7 @@ class EventQueue
     public:
         BankEvent* data;
         EventQueue* next;
-        BankEvent getData();
+        BankEvent* getData();
         EventQueue getNext();
         int insert(BankEvent* e);
         int hasNext();
@@ -125,9 +125,9 @@ BankEvent::BankEvent()
 
 
 //Queue functions
-BankEvent EventQueue::getData()
+BankEvent* EventQueue::getData()
 {
-    return *data;
+    return data;
 }
  
 EventQueue EventQueue::getNext()
@@ -137,7 +137,7 @@ EventQueue EventQueue::getNext()
 
 int EventQueue::insert(BankEvent* e)
 {
-    if (e->getTime() < getData().getTime())
+    if (e->getTime() < getData()->getTime())
     {
         BankEvent* t = data;
         data = e;
