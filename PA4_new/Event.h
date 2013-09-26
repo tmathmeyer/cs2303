@@ -4,13 +4,13 @@ class BankEvent;
 class EventQueue
 {
     public:
-        BankEvent*   data;
-        EventQueue*  next;
-        BankEvent*   getData();
-        EventQueue   getNext();
-        int insert   (BankEvent* e);
-        int hasNext  ();
-        EventQueue(BankEvent* e);
+        BankEvent* data;
+        EventQueue* next;
+        BankEvent* getData();
+        EventQueue getNext();
+        int insert(BankEvent* e);
+        int hasNext();
+        EventQueue (BankEvent* e);
 };
 
 
@@ -29,6 +29,7 @@ class TellerEvent : public BankEvent
 {
 	private:
 		int queue; //the queue that the teller takes clients from
+        int time;
     public:
     	int  getTime();
     	int  setTime(int t);
@@ -46,6 +47,7 @@ class CustomerEvent : public BankEvent
 	private:
 		int type;   //0=entering, 1=leaving
 		int queue;  //the queue the client is in
+        int time;
     public:
         int getType () { return type;  }
         int getQueue() { return queue; }
@@ -53,7 +55,7 @@ class CustomerEvent : public BankEvent
     	int setTime(int t);
 
         void onCompletion(EventQueue* eq);
-        CustomerEvent(int t, int q)
+        CustomerEvent(int t, int q, int i)
         {
             type = t;
             queue = q;

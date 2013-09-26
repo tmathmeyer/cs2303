@@ -1,0 +1,3512 @@
+Due to lack of customers, the teller in queue 1 has gone idle for 160 seconds
+Due to lack of customers, the teller in queue 2 has gone idle for 154 seconds
+Due to lack of customers, the teller in queue 3 has gone idle for 284 seconds
+Due to lack of customers, the teller in queue 0 has gone idle for 294 seconds
+Due to lack of customers, the teller in queue 2 has gone idle for 297 seconds
+Due to lack of customers, the teller in queue 1 has gone idle for 277 seconds
+a new customer has entered with id 0 into queue 1
+Due to lack of customers, the teller in queue 3 has gone idle for 274 seconds
+a new customer has entered with id 1 into queue 3
+a new customer has entered with id 2 into queue 2
+a new customer has entered with id 3 into queue 0
+a new customer has entered with id 4 into queue 1
+a new customer has entered with id 5 into queue 3
+a new customer has entered with id 6 into queue 2
+this 0th customer entered the bank at time: 248
+this customer was in the bank for 182 seconds
+a customer in queue 0 is being serviced by the bank
+    this will take 16 seconds
+a new customer has entered with id 7 into queue 2
+a customer has left the bank
+there are 2 customers in line 0
+this 1th customer entered the bank at time: 286
+this customer was in the bank for 238 seconds
+a customer in queue 0 is being serviced by the bank
+    this will take 94 seconds
+this 2th customer entered the bank at time: 331
+this customer was in the bank for 129 seconds
+a customer in queue 1 is being serviced by the bank
+    this will take 23 seconds
+this 3th customer entered the bank at time: 334
+this customer was in the bank for 130 seconds
+a customer in queue 2 is being serviced by the bank
+    this will take 13 seconds
+a customer has left the bank
+there are 1 customers in line 1
+this 4th customer entered the bank at time: 375
+this customer was in the bank for 144 seconds
+a customer in queue 1 is being serviced by the bank
+    this will take 59 seconds
+a customer has left the bank
+there are 0 customers in line 2
+Due to lack of customers, the teller in queue 2 has gone idle for 202 seconds
+a customer has left the bank
+there are 0 customers in line 1
+Due to lack of customers, the teller in queue 1 has gone idle for 247 seconds
+a customer has left the bank
+there are 1 customers in line 0
+this 5th customer entered the bank at time: 380
+this customer was in the bank for 216 seconds
+a customer in queue 0 is being serviced by the bank
+    this will take 72 seconds
+this 6th customer entered the bank at time: 389
+this customer was in the bank for 185 seconds
+a customer in queue 3 is being serviced by the bank
+    this will take 16 seconds
+a new customer has entered with id 8 into queue 1
+a customer has left the bank
+there are 1 customers in line 3
+this 7th customer entered the bank at time: 425
+this customer was in the bank for 192 seconds
+a customer in queue 3 is being serviced by the bank
+    this will take 43 seconds
+a customer has left the bank
+there are 1 customers in line 0
+this 8th customer entered the bank at time: 565
+this customer was in the bank for 160 seconds
+a customer in queue 0 is being serviced by the bank
+    this will take 129 seconds
+a customer has left the bank
+there are 0 customers in line 3
+Due to lack of customers, the teller in queue 3 has gone idle for 226 seconds
+a new customer has entered with id 9 into queue 1
+Due to lack of customers, the teller in queue 2 has gone idle for 236 seconds
+a new customer has entered with id 10 into queue 3
+a customer has left the bank
+there are 1 customers in line 0
+this 9th customer entered the bank at time: 662
+this customer was in the bank for 181 seconds
+a customer in queue 0 is being serviced by the bank
+    this will take 118 seconds
+a new customer has entered with id 11 into queue 3
+this 10th customer entered the bank at time: 669
+this customer was in the bank for 127 seconds
+a customer in queue 1 is being serviced by the bank
+    this will take 30 seconds
+a customer has left the bank
+there are 0 customers in line 1
+Due to lack of customers, the teller in queue 1 has gone idle for 253 seconds
+a new customer has entered with id 12 into queue 3
+a new customer has entered with id 13 into queue 2
+a new customer has entered with id 14 into queue 0
+this 11th customer entered the bank at time: 731
+this customer was in the bank for 151 seconds
+a customer in queue 3 is being serviced by the bank
+    this will take 39 seconds
+a customer has left the bank
+there are 1 customers in line 0
+this 12th customer entered the bank at time: 811
+this customer was in the bank for 164 seconds
+a customer in queue 0 is being serviced by the bank
+    this will take 132 seconds
+a new customer has entered with id 15 into queue 3
+a new customer has entered with id 16 into queue 0
+a new customer has entered with id 17 into queue 1
+a new customer has entered with id 18 into queue 3
+a customer has left the bank
+there are 1 customers in line 3
+this 13th customer entered the bank at time: 837
+this customer was in the bank for 154 seconds
+a customer in queue 3 is being serviced by the bank
+    this will take 109 seconds
+a new customer has entered with id 19 into queue 3
+this 14th customer entered the bank at time: 841
+this customer was in the bank for 125 seconds
+a customer in queue 2 is being serviced by the bank
+    this will take 64 seconds
+a new customer has entered with id 20 into queue 2
+a new customer has entered with id 21 into queue 2
+a new customer has entered with id 22 into queue 0
+a customer has left the bank
+there are 2 customers in line 2
+this 15th customer entered the bank at time: 849
+this customer was in the bank for 148 seconds
+a customer in queue 2 is being serviced by the bank
+    this will take 31 seconds
+a customer has left the bank
+there are 2 customers in line 0
+this 16th customer entered the bank at time: 860
+this customer was in the bank for 141 seconds
+a customer in queue 0 is being serviced by the bank
+    this will take 26 seconds
+a new customer has entered with id 23 into queue 2
+a customer has left the bank
+there are 2 customers in line 3
+this 17th customer entered the bank at time: 869
+this customer was in the bank for 239 seconds
+a customer in queue 3 is being serviced by the bank
+    this will take 117 seconds
+a new customer has entered with id 24 into queue 2
+a customer has left the bank
+there are 1 customers in line 2
+this 18th customer entered the bank at time: 880
+this customer was in the bank for 133 seconds
+a customer in queue 2 is being serviced by the bank
+    this will take 16 seconds
+a customer has left the bank
+there are 2 customers in line 0
+this 19th customer entered the bank at time: 892
+this customer was in the bank for 172 seconds
+a customer in queue 0 is being serviced by the bank
+    this will take 63 seconds
+a customer has left the bank
+there are 0 customers in line 2
+Due to lack of customers, the teller in queue 2 has gone idle for 199 seconds
+this 20th customer entered the bank at time: 940
+this customer was in the bank for 210 seconds
+a customer in queue 1 is being serviced by the bank
+    this will take 101 seconds
+a customer has left the bank
+there are 1 customers in line 0
+this 21th customer entered the bank at time: 954
+this customer was in the bank for 182 seconds
+a customer in queue 0 is being serviced by the bank
+    this will take 72 seconds
+a new customer has entered with id 25 into queue 2
+a customer has left the bank
+there are 2 customers in line 3
+this 22th customer entered the bank at time: 955
+this customer was in the bank for 231 seconds
+a customer in queue 3 is being serviced by the bank
+    this will take 78 seconds
+a new customer has entered with id 26 into queue 0
+a new customer has entered with id 27 into queue 1
+a customer has left the bank
+there are 2 customers in line 0
+this 23th customer entered the bank at time: 976
+this customer was in the bank for 172 seconds
+a customer in queue 0 is being serviced by the bank
+    this will take 12 seconds
+a customer has left the bank
+there are 1 customers in line 0
+this 24th customer entered the bank at time: 997
+this customer was in the bank for 238 seconds
+a customer in queue 0 is being serviced by the bank
+    this will take 87 seconds
+a customer has left the bank
+there are 1 customers in line 1
+this 25th customer entered the bank at time: 1085
+this customer was in the bank for 159 seconds
+a customer in queue 1 is being serviced by the bank
+    this will take 94 seconds
+a new customer has entered with id 28 into queue 1
+a new customer has entered with id 29 into queue 0
+a customer has left the bank
+there are 1 customers in line 3
+this 26th customer entered the bank at time: 1113
+this customer was in the bank for 81 seconds
+a customer in queue 3 is being serviced by the bank
+    this will take 8 seconds
+a customer has left the bank
+there are 0 customers in line 3
+Due to lack of customers, the teller in queue 3 has gone idle for 253 seconds
+this 27th customer entered the bank at time: 1121
+this customer was in the bank for 100 seconds
+a customer in queue 2 is being serviced by the bank
+    this will take 9 seconds
+a customer has left the bank
+there are 0 customers in line 2
+Due to lack of customers, the teller in queue 2 has gone idle for 206 seconds
+a customer has left the bank
+there are 1 customers in line 0
+this 28th customer entered the bank at time: 1151
+this customer was in the bank for 91 seconds
+a customer in queue 0 is being serviced by the bank
+    this will take 7 seconds
+a customer has left the bank
+there are 0 customers in line 0
+Due to lack of customers, the teller in queue 0 has gone idle for 268 seconds
+a customer has left the bank
+there are 1 customers in line 1
+this 29th customer entered the bank at time: 1183
+this customer was in the bank for 102 seconds
+a customer in queue 1 is being serviced by the bank
+    this will take 41 seconds
+a customer has left the bank
+there are 0 customers in line 1
+Due to lack of customers, the teller in queue 1 has gone idle for 246 seconds
+a new customer has entered with id 30 into queue 1
+a new customer has entered with id 31 into queue 3
+a new customer has entered with id 32 into queue 2
+a new customer has entered with id 33 into queue 0
+a new customer has entered with id 34 into queue 1
+a new customer has entered with id 35 into queue 3
+this 30th customer entered the bank at time: 1360
+this customer was in the bank for 148 seconds
+a customer in queue 2 is being serviced by the bank
+    this will take 81 seconds
+a new customer has entered with id 36 into queue 2
+this 31th customer entered the bank at time: 1371
+this customer was in the bank for 109 seconds
+a customer in queue 3 is being serviced by the bank
+    this will take 33 seconds
+a customer has left the bank
+there are 1 customers in line 3
+this 32th customer entered the bank at time: 1392
+this customer was in the bank for 172 seconds
+a customer in queue 3 is being serviced by the bank
+    this will take 84 seconds
+a customer has left the bank
+there are 0 customers in line 2
+Due to lack of customers, the teller in queue 2 has gone idle for 261 seconds
+this 33th customer entered the bank at time: 1406
+this customer was in the bank for 157 seconds
+a customer in queue 0 is being serviced by the bank
+    this will take 53 seconds
+this 34th customer entered the bank at time: 1410
+this customer was in the bank for 235 seconds
+a customer in queue 1 is being serviced by the bank
+    this will take 114 seconds
+a new customer has entered with id 37 into queue 2
+a customer has left the bank
+there are 1 customers in line 0
+this 35th customer entered the bank at time: 1415
+this customer was in the bank for 192 seconds
+a customer in queue 0 is being serviced by the bank
+    this will take 44 seconds
+a customer has left the bank
+there are 1 customers in line 3
+this 36th customer entered the bank at time: 1428
+this customer was in the bank for 228 seconds
+a customer in queue 3 is being serviced by the bank
+    this will take 92 seconds
+a new customer has entered with id 38 into queue 3
+a new customer has entered with id 39 into queue 2
+a new customer has entered with id 40 into queue 0
+a customer has left the bank
+there are 1 customers in line 0
+this 37th customer entered the bank at time: 1547
+this customer was in the bank for 70 seconds
+a customer in queue 0 is being serviced by the bank
+    this will take 10 seconds
+a new customer has entered with id 41 into queue 0
+a new customer has entered with id 42 into queue 1
+a new customer has entered with id 43 into queue 3
+a customer has left the bank
+there are 2 customers in line 0
+this 38th customer entered the bank at time: 1571
+this customer was in the bank for 61 seconds
+a customer in queue 0 is being serviced by the bank
+    this will take 15 seconds
+a customer has left the bank
+there are 1 customers in line 0
+this 39th customer entered the bank at time: 1585
+this customer was in the bank for 106 seconds
+a customer in queue 0 is being serviced by the bank
+    this will take 59 seconds
+a new customer has entered with id 44 into queue 0
+a customer has left the bank
+there are 2 customers in line 1
+this 40th customer entered the bank at time: 1602
+this customer was in the bank for 124 seconds
+a customer in queue 1 is being serviced by the bank
+    this will take 81 seconds
+a customer has left the bank
+there are 1 customers in line 3
+this 41th customer entered the bank at time: 1608
+this customer was in the bank for 129 seconds
+a customer in queue 3 is being serviced by the bank
+    this will take 81 seconds
+a new customer has entered with id 45 into queue 0
+a customer has left the bank
+there are 1 customers in line 0
+this 42th customer entered the bank at time: 1616
+this customer was in the bank for 153 seconds
+a customer in queue 0 is being serviced by the bank
+    this will take 78 seconds
+a customer has left the bank
+there are 1 customers in line 1
+this 43th customer entered the bank at time: 1617
+this customer was in the bank for 246 seconds
+a customer in queue 1 is being serviced by the bank
+    this will take 137 seconds
+a new customer has entered with id 46 into queue 1
+a customer has left the bank
+there are 1 customers in line 3
+this 44th customer entered the bank at time: 1640
+this customer was in the bank for 103 seconds
+a customer in queue 3 is being serviced by the bank
+    this will take 6 seconds
+a new customer has entered with id 47 into queue 3
+a customer has left the bank
+there are 0 customers in line 3
+Due to lack of customers, the teller in queue 3 has gone idle for 287 seconds
+a new customer has entered with id 48 into queue 0
+this 45th customer entered the bank at time: 1679
+this customer was in the bank for 191 seconds
+a customer in queue 2 is being serviced by the bank
+    this will take 101 seconds
+a customer has left the bank
+there are 1 customers in line 0
+this 46th customer entered the bank at time: 1734
+this customer was in the bank for 153 seconds
+a customer in queue 0 is being serviced by the bank
+    this will take 118 seconds
+a new customer has entered with id 49 into queue 2
+a new customer has entered with id 50 into queue 0
+a customer has left the bank
+there are 1 customers in line 1
+this 47th customer entered the bank at time: 1741
+this customer was in the bank for 126 seconds
+a customer in queue 1 is being serviced by the bank
+    this will take 4 seconds
+a customer has left the bank
+there are 0 customers in line 1
+Due to lack of customers, the teller in queue 1 has gone idle for 154 seconds
+a customer has left the bank
+there are 1 customers in line 2
+this 48th customer entered the bank at time: 1757
+this customer was in the bank for 220 seconds
+a customer in queue 2 is being serviced by the bank
+    this will take 107 seconds
+a new customer has entered with id 51 into queue 2
+a customer has left the bank
+there are 1 customers in line 0
+this 49th customer entered the bank at time: 1801
+this customer was in the bank for 185 seconds
+a customer in queue 0 is being serviced by the bank
+    this will take 99 seconds
+a new customer has entered with id 52 into queue 2
+a customer has left the bank
+there are 0 customers in line 2
+Due to lack of customers, the teller in queue 2 has gone idle for 300 seconds
+a customer has left the bank
+there are 1 customers in line 0
+this 50th customer entered the bank at time: 1833
+this customer was in the bank for 272 seconds
+a customer in queue 0 is being serviced by the bank
+    this will take 119 seconds
+this 51th customer entered the bank at time: 1877
+this customer was in the bank for 154 seconds
+a customer in queue 1 is being serviced by the bank
+    this will take 10 seconds
+this 52th customer entered the bank at time: 1939
+this customer was in the bank for 221 seconds
+a customer in queue 3 is being serviced by the bank
+    this will take 130 seconds
+a customer has left the bank
+there are 0 customers in line 1
+Due to lack of customers, the teller in queue 1 has gone idle for 203 seconds
+a new customer has entered with id 53 into queue 1
+a customer has left the bank
+there are 1 customers in line 0
+this 53th customer entered the bank at time: 2059
+this customer was in the bank for 54 seconds
+a customer in queue 0 is being serviced by the bank
+    this will take 8 seconds
+a customer has left the bank
+there are 0 customers in line 0
+Due to lack of customers, the teller in queue 0 has gone idle for 284 seconds
+a new customer has entered with id 54 into queue 1
+a new customer has entered with id 55 into queue 3
+a customer has left the bank
+there are 0 customers in line 3
+Due to lack of customers, the teller in queue 3 has gone idle for 298 seconds
+a new customer has entered with id 56 into queue 2
+this 54th customer entered the bank at time: 2139
+this customer was in the bank for 224 seconds
+a customer in queue 1 is being serviced by the bank
+    this will take 129 seconds
+Due to lack of customers, the teller in queue 2 has gone idle for 209 seconds
+a new customer has entered with id 57 into queue 2
+a new customer has entered with id 58 into queue 0
+a customer has left the bank
+there are 1 customers in line 1
+this 55th customer entered the bank at time: 2153
+this customer was in the bank for 247 seconds
+a customer in queue 1 is being serviced by the bank
+    this will take 37 seconds
+a new customer has entered with id 59 into queue 0
+this 56th customer entered the bank at time: 2194
+this customer was in the bank for 292 seconds
+a customer in queue 0 is being serviced by the bank
+    this will take 89 seconds
+a customer has left the bank
+there are 1 customers in line 1
+this 57th customer entered the bank at time: 2322
+this customer was in the bank for 140 seconds
+a customer in queue 1 is being serviced by the bank
+    this will take 62 seconds
+a new customer has entered with id 60 into queue 1
+a new customer has entered with id 61 into queue 0
+this 58th customer entered the bank at time: 2345
+this customer was in the bank for 166 seconds
+a customer in queue 3 is being serviced by the bank
+    this will take 53 seconds
+a customer has left the bank
+there are 1 customers in line 1
+this 59th customer entered the bank at time: 2371
+this customer was in the bank for 126 seconds
+a customer in queue 1 is being serviced by the bank
+    this will take 35 seconds
+a new customer has entered with id 62 into queue 3
+a customer has left the bank
+there are 1 customers in line 0
+this 60th customer entered the bank at time: 2431
+this customer was in the bank for 111 seconds
+a customer in queue 2 is being serviced by the bank
+    this will take 56 seconds
+this 61th customer entered the bank at time: 2456
+this customer was in the bank for 94 seconds
+a customer in queue 0 is being serviced by the bank
+    this will take 64 seconds
+a new customer has entered with id 63 into queue 3
+a customer has left the bank
+there are 1 customers in line 1
+this 62th customer entered the bank at time: 2478
+this customer was in the bank for 109 seconds
+a customer in queue 1 is being serviced by the bank
+    this will take 90 seconds
+a new customer has entered with id 64 into queue 3
+a customer has left the bank
+there are 0 customers in line 3
+Due to lack of customers, the teller in queue 3 has gone idle for 282 seconds
+a new customer has entered with id 65 into queue 2
+a new customer has entered with id 66 into queue 0
+a new customer has entered with id 67 into queue 1
+a customer has left the bank
+there are 1 customers in line 2
+this 63th customer entered the bank at time: 2494
+this customer was in the bank for 95 seconds
+a customer in queue 2 is being serviced by the bank
+    this will take 47 seconds
+a customer has left the bank
+there are 2 customers in line 0
+this 64th customer entered the bank at time: 2506
+this customer was in the bank for 77 seconds
+a customer in queue 0 is being serviced by the bank
+    this will take 33 seconds
+a new customer has entered with id 68 into queue 0
+a customer has left the bank
+there are 1 customers in line 0
+this 65th customer entered the bank at time: 2515
+this customer was in the bank for 163 seconds
+a customer in queue 0 is being serviced by the bank
+    this will take 95 seconds
+a customer has left the bank
+there are 1 customers in line 1
+this 66th customer entered the bank at time: 2524
+this customer was in the bank for 110 seconds
+a customer in queue 1 is being serviced by the bank
+    this will take 47 seconds
+a customer has left the bank
+there are 1 customers in line 2
+this 67th customer entered the bank at time: 2534
+this customer was in the bank for 134 seconds
+a customer in queue 2 is being serviced by the bank
+    this will take 79 seconds
+a new customer has entered with id 69 into queue 1
+a new customer has entered with id 70 into queue 2
+a customer has left the bank
+there are 1 customers in line 1
+a new customer has entered with id 71 into queue 0
+this 68th customer entered the bank at time: 2558
+this customer was in the bank for 137 seconds
+a customer in queue 1 is being serviced by the bank
+    this will take 61 seconds
+a new customer has entered with id 72 into queue 0
+a customer has left the bank
+there are 1 customers in line 2
+this 69th customer entered the bank at time: 2631
+this customer was in the bank for 87 seconds
+a customer in queue 2 is being serviced by the bank
+    this will take 50 seconds
+a new customer has entered with id 73 into queue 0
+a customer has left the bank
+there are 1 customers in line 0
+this 70th customer entered the bank at time: 2631
+this customer was in the bank for 106 seconds
+a customer in queue 0 is being serviced by the bank
+    this will take 59 seconds
+a customer has left the bank
+there are 1 customers in line 1
+this 71th customer entered the bank at time: 2634
+this customer was in the bank for 127 seconds
+a customer in queue 1 is being serviced by the bank
+    this will take 66 seconds
+a customer has left the bank
+there are 1 customers in line 2
+this 72th customer entered the bank at time: 2655
+this customer was in the bank for 168 seconds
+a customer in queue 2 is being serviced by the bank
+    this will take 105 seconds
+a new customer has entered with id 74 into queue 1
+a customer has left the bank
+there are 1 customers in line 0
+this 73th customer entered the bank at time: 2674
+this customer was in the bank for 91 seconds
+a customer in queue 0 is being serviced by the bank
+    this will take 28 seconds
+a customer has left the bank
+there are 0 customers in line 1
+Due to lack of customers, the teller in queue 1 has gone idle for 176 seconds
+a customer has left the bank
+there are 0 customers in line 0
+Due to lack of customers, the teller in queue 0 has gone idle for 271 seconds
+a new customer has entered with id 75 into queue 1
+this 74th customer entered the bank at time: 2729
+this customer was in the bank for 113 seconds
+a customer in queue 3 is being serviced by the bank
+    this will take 49 seconds
+a customer has left the bank
+there are 0 customers in line 2
+Due to lack of customers, the teller in queue 2 has gone idle for 234 seconds
+a customer has left the bank
+there are 0 customers in line 3
+Due to lack of customers, the teller in queue 3 has gone idle for 227 seconds
+a new customer has entered with id 76 into queue 3
+a new customer has entered with id 77 into queue 2
+a new customer has entered with id 78 into queue 0
+this 75th customer entered the bank at time: 2782
+this customer was in the bank for 232 seconds
+a customer in queue 1 is being serviced by the bank
+    this will take 77 seconds
+a new customer has entered with id 79 into queue 0
+a new customer has entered with id 80 into queue 1
+a customer has left the bank
+there are 1 customers in line 1
+this 76th customer entered the bank at time: 2864
+this customer was in the bank for 275 seconds
+a customer in queue 1 is being serviced by the bank
+    this will take 125 seconds
+a new customer has entered with id 81 into queue 1
+this 77th customer entered the bank at time: 2866
+this customer was in the bank for 265 seconds
+a customer in queue 0 is being serviced by the bank
+    this will take 95 seconds
+this 78th customer entered the bank at time: 2909
+this customer was in the bank for 178 seconds
+a customer in queue 2 is being serviced by the bank
+    this will take 30 seconds
+this 79th customer entered the bank at time: 3007
+this customer was in the bank for 80 seconds
+a customer in queue 3 is being serviced by the bank
+    this will take 18 seconds
+a new customer has entered with id 82 into queue 2
+a customer has left the bank
+there are 0 customers in line 2
+a customer has left the bank
+there are 1 customers in line 3
+Due to lack of customers, the teller in queue 2 has gone idle for 171 seconds
+this 80th customer entered the bank at time: 3013
+this customer was in the bank for 141 seconds
+a customer in queue 3 is being serviced by the bank
+    this will take 67 seconds
+a new customer has entered with id 83 into queue 2
+a customer has left the bank
+there are 1 customers in line 0
+this 81th customer entered the bank at time: 3026
+this customer was in the bank for 212 seconds
+a customer in queue 0 is being serviced by the bank
+    this will take 107 seconds
+a new customer has entered with id 84 into queue 2
+a customer has left the bank
+there are 1 customers in line 1
+this 82th customer entered the bank at time: 3082
+this customer was in the bank for 85 seconds
+a customer in queue 1 is being serviced by the bank
+    this will take 28 seconds
+a new customer has entered with id 85 into queue 2
+a customer has left the bank
+there are 1 customers in line 3
+this 83th customer entered the bank at time: 3088
+this customer was in the bank for 186 seconds
+a customer in queue 3 is being serviced by the bank
+    this will take 120 seconds
+a customer has left the bank
+there are 1 customers in line 1
+this 84th customer entered the bank at time: 3138
+this customer was in the bank for 33 seconds
+a customer in queue 1 is being serviced by the bank
+    this will take 4 seconds
+a new customer has entered with id 86 into queue 3
+a customer has left the bank
+there are 1 customers in line 1
+this 85th customer entered the bank at time: 3149
+this customer was in the bank for 146 seconds
+a customer in queue 1 is being serviced by the bank
+    this will take 124 seconds
+a new customer has entered with id 87 into queue 3
+a customer has left the bank
+there are 1 customers in line 0
+this 86th customer entered the bank at time: 3168
+this customer was in the bank for 156 seconds
+a customer in queue 0 is being serviced by the bank
+    this will take 86 seconds
+Due to lack of customers, the teller in queue 2 has gone idle for 221 seconds
+a new customer has entered with id 88 into queue 3
+a new customer has entered with id 89 into queue 2
+a new customer has entered with id 90 into queue 0
+a customer has left the bank
+there are 1 customers in line 3
+this 87th customer entered the bank at time: 3177
+this customer was in the bank for 101 seconds
+a customer in queue 3 is being serviced by the bank
+    this will take 4 seconds
+a customer has left the bank
+there are 0 customers in line 3
+Due to lack of customers, the teller in queue 3 has gone idle for 283 seconds
+a customer has left the bank
+there are 1 customers in line 1
+this 88th customer entered the bank at time: 3259
+this customer was in the bank for 65 seconds
+a customer in queue 1 is being serviced by the bank
+    this will take 29 seconds
+a customer has left the bank
+there are 1 customers in line 0
+a customer has left the bank
+there are 0 customers in line 1
+this 89th customer entered the bank at time: 3261
+this customer was in the bank for 64 seconds
+a customer in queue 0 is being serviced by the bank
+    this will take 1 seconds
+Due to lack of customers, the teller in queue 1 has gone idle for 186 seconds
+a customer has left the bank
+there are 0 customers in line 0
+Due to lack of customers, the teller in queue 0 has gone idle for 259 seconds
+a new customer has entered with id 91 into queue 1
+a new customer has entered with id 92 into queue 3
+a new customer has entered with id 93 into queue 0
+a new customer has entered with id 94 into queue 1
+this 90th customer entered the bank at time: 3266
+this customer was in the bank for 276 seconds
+a customer in queue 2 is being serviced by the bank
+    this will take 63 seconds
+a new customer has entered with id 95 into queue 1
+this 91th customer entered the bank at time: 3328
+this customer was in the bank for 315 seconds
+a customer in queue 1 is being serviced by the bank
+    this will take 133 seconds
+a customer has left the bank
+there are 1 customers in line 2
+this 92th customer entered the bank at time: 3348
+this customer was in the bank for 263 seconds
+a customer in queue 2 is being serviced by the bank
+    this will take 69 seconds
+a new customer has entered with id 96 into queue 2
+a new customer has entered with id 97 into queue 1
+a new customer has entered with id 98 into queue 3
+this 93th customer entered the bank at time: 3388
+this customer was in the bank for 204 seconds
+a customer in queue 3 is being serviced by the bank
+    this will take 31 seconds
+a new customer has entered with id 99 into queue 3
+this 94th customer entered the bank at time: 3428
+this customer was in the bank for 256 seconds
+a customer in queue 0 is being serviced by the bank
+    this will take 100 seconds
+a customer has left the bank
+there are 1 customers in line 3
+this 95th customer entered the bank at time: 3500
+this customer was in the bank for 229 seconds
+a customer in queue 3 is being serviced by the bank
+    this will take 137 seconds
+a customer has left the bank
+there are 1 customers in line 2
+this 96th customer entered the bank at time: 3545
+this customer was in the bank for 66 seconds
+a customer in queue 2 is being serviced by the bank
+    this will take 0 seconds
+a customer has left the bank
+there are 0 customers in line 2
+Due to lack of customers, the teller in queue 2 has gone idle for 239 seconds
+a customer has left the bank
+there are 2 customers in line 1
+this 97th customer entered the bank at time: 3550
+this customer was in the bank for 141 seconds
+a customer in queue 1 is being serviced by the bank
+    this will take 48 seconds
+a customer has left the bank
+there are 1 customers in line 0
+this 98th customer entered the bank at time: 3554
+this customer was in the bank for 207 seconds
+a customer in queue 0 is being serviced by the bank
+    this will take 77 seconds
+a customer has left the bank
+there are 1 customers in line 1
+this 99th customer entered the bank at time: 3575
+this customer was in the bank for 170 seconds
+a customer in queue 1 is being serviced by the bank
+    this will take 54 seconds
+a customer has left the bank
+there are 0 customers in line 3
+a customer has left the bank
+there are 0 customers in line 1
+a customer has left the bank
+there are 0 customers in line 0
+MULTI QUEUE
+   # there were 100 customers served
+   # it took 3761 seconds to serve all the customers
+   # there were 4 tellers in a multi-queue system
+   # the customers were in the bank for an average of 159.49 seconds
+   # with a standard deviation of 60.6934 seconds
+   # the longest time a customer waited in line was: 213 seconds
+   # the total teller idle time was 8621
+   # and the total service time was 6344
+
+Event time: 0
+Due to lack of customers, the teller in queue 0 has gone idle for 227 seconds
+Customers: 
+  0|
+  1|
+  2|
+  3|
+Event time: 0
+Due to lack of customers, the teller in queue 0 has gone idle for 226 seconds
+Customers: 
+  0|
+  1|
+  2|
+  3|
+Event time: 0
+Due to lack of customers, the teller in queue 0 has gone idle for 210 seconds
+Customers: 
+  0|
+  1|
+  2|
+  3|
+Event time: 1
+a new customer has entered with id 0 into queue 0
+Customers: 
+  0|x
+  1|
+  2|
+  3|
+Event time: 6
+a new customer has entered with id 1 into queue 0
+Customers: 
+  0|xx
+  1|
+  2|
+  3|
+Event time: 69
+a new customer has entered with id 2 into queue 0
+Customers: 
+  0|xxx
+  1|
+  2|
+  3|
+Event time: 102
+a new customer has entered with id 3 into queue 0
+Customers: 
+  0|xxxx
+  1|
+  2|
+  3|
+Event time: 120
+this 0th customer entered the bank at time: 1
+this customer was in the bank for 209 seconds
+a customer in queue 0 is being serviced by the bank
+    this will take 90 seconds
+Customers: 
+  0|xxx
+  1|
+  2|
+  3|
+Event time: 203
+a new customer has entered with id 4 into queue 0
+Customers: 
+  0|xxxx
+  1|
+  2|
+  3|
+Event time: 210
+this 1th customer entered the bank at time: 6
+this customer was in the bank for 224 seconds
+a customer in queue 0 is being serviced by the bank
+    this will take 20 seconds
+Customers: 
+  0|xxx
+  1|
+  2|
+  3|
+Event time: 210
+a customer has left the bank
+there are 3 customers in line 0
+Customers: 
+  0|xxx
+  1|
+  2|
+  3|
+Event time: 210
+this 2th customer entered the bank at time: 69
+this customer was in the bank for 267 seconds
+a customer in queue 0 is being serviced by the bank
+    this will take 126 seconds
+Customers: 
+  0|xx
+  1|
+  2|
+  3|
+Event time: 222
+a new customer has entered with id 5 into queue 0
+Customers: 
+  0|xxx
+  1|
+  2|
+  3|
+Event time: 226
+this 3th customer entered the bank at time: 102
+this customer was in the bank for 254 seconds
+a customer in queue 0 is being serviced by the bank
+    this will take 130 seconds
+Customers: 
+  0|xx
+  1|
+  2|
+  3|
+Event time: 227
+this 4th customer entered the bank at time: 203
+this customer was in the bank for 57 seconds
+a customer in queue 0 is being serviced by the bank
+    this will take 33 seconds
+Customers: 
+  0|x
+  1|
+  2|
+  3|
+Event time: 230
+a customer has left the bank
+there are 1 customers in line 0
+Customers: 
+  0|x
+  1|
+  2|
+  3|
+Event time: 230
+this 5th customer entered the bank at time: 222
+this customer was in the bank for 139 seconds
+a customer in queue 0 is being serviced by the bank
+    this will take 131 seconds
+Customers: 
+  0|
+  1|
+  2|
+  3|
+Event time: 233
+a new customer has entered with id 6 into queue 0
+Customers: 
+  0|x
+  1|
+  2|
+  3|
+Event time: 236
+a new customer has entered with id 7 into queue 0
+Customers: 
+  0|xx
+  1|
+  2|
+  3|
+Event time: 236
+a new customer has entered with id 8 into queue 0
+Customers: 
+  0|xxx
+  1|
+  2|
+  3|
+Event time: 260
+a customer has left the bank
+there are 3 customers in line 0
+Customers: 
+  0|xxx
+  1|
+  2|
+  3|
+Event time: 260
+this 6th customer entered the bank at time: 233
+this customer was in the bank for 67 seconds
+a customer in queue 0 is being serviced by the bank
+    this will take 40 seconds
+Customers: 
+  0|xx
+  1|
+  2|
+  3|
+Event time: 300
+a customer has left the bank
+there are 2 customers in line 0
+Customers: 
+  0|xx
+  1|
+  2|
+  3|
+Event time: 300
+this 7th customer entered the bank at time: 236
+this customer was in the bank for 84 seconds
+a customer in queue 0 is being serviced by the bank
+    this will take 20 seconds
+Customers: 
+  0|x
+  1|
+  2|
+  3|
+Event time: 320
+a customer has left the bank
+there are 1 customers in line 0
+Customers: 
+  0|x
+  1|
+  2|
+  3|
+Event time: 320
+this 8th customer entered the bank at time: 236
+this customer was in the bank for 191 seconds
+a customer in queue 0 is being serviced by the bank
+    this will take 107 seconds
+Customers: 
+  0|
+  1|
+  2|
+  3|
+Event time: 336
+a customer has left the bank
+there are 0 customers in line 0
+Customers: 
+  0|
+  1|
+  2|
+  3|
+Event time: 336
+Due to lack of customers, the teller in queue 0 has gone idle for 248 seconds
+Customers: 
+  0|
+  1|
+  2|
+  3|
+Event time: 344
+a new customer has entered with id 9 into queue 0
+Customers: 
+  0|x
+  1|
+  2|
+  3|
+Event time: 356
+a customer has left the bank
+there are 1 customers in line 0
+Customers: 
+  0|x
+  1|
+  2|
+  3|
+Event time: 356
+this 9th customer entered the bank at time: 344
+this customer was in the bank for 16 seconds
+a customer in queue 0 is being serviced by the bank
+    this will take 4 seconds
+Customers: 
+  0|
+  1|
+  2|
+  3|
+Event time: 360
+a customer has left the bank
+there are 0 customers in line 0
+Customers: 
+  0|
+  1|
+  2|
+  3|
+Event time: 360
+Due to lack of customers, the teller in queue 0 has gone idle for 285 seconds
+Customers: 
+  0|
+  1|
+  2|
+  3|
+Event time: 361
+a customer has left the bank
+there are 0 customers in line 0
+Customers: 
+  0|
+  1|
+  2|
+  3|
+Event time: 361
+Due to lack of customers, the teller in queue 0 has gone idle for 192 seconds
+Customers: 
+  0|
+  1|
+  2|
+  3|
+Event time: 363
+a new customer has entered with id 10 into queue 0
+Customers: 
+  0|x
+  1|
+  2|
+  3|
+Event time: 365
+a new customer has entered with id 11 into queue 0
+Customers: 
+  0|xx
+  1|
+  2|
+  3|
+Event time: 371
+a new customer has entered with id 12 into queue 0
+Customers: 
+  0|xxx
+  1|
+  2|
+  3|
+Event time: 377
+a new customer has entered with id 13 into queue 0
+Customers: 
+  0|xxxx
+  1|
+  2|
+  3|
+Event time: 387
+a new customer has entered with id 14 into queue 0
+Customers: 
+  0|xxxxx
+  1|
+  2|
+  3|
+Event time: 387
+a new customer has entered with id 15 into queue 0
+Customers: 
+  0|xxxxxx
+  1|
+  2|
+  3|
+Event time: 399
+a new customer has entered with id 16 into queue 0
+Customers: 
+  0|xxxxxxx
+  1|
+  2|
+  3|
+Event time: 427
+a customer has left the bank
+there are 7 customers in line 0
+Customers: 
+  0|xxxxxxx
+  1|
+  2|
+  3|
+Event time: 427
+this 10th customer entered the bank at time: 363
+this customer was in the bank for 164 seconds
+a customer in queue 0 is being serviced by the bank
+    this will take 100 seconds
+Customers: 
+  0|xxxxxx
+  1|
+  2|
+  3|
+Event time: 445
+a new customer has entered with id 17 into queue 0
+Customers: 
+  0|xxxxxxx
+  1|
+  2|
+  3|
+Event time: 478
+a new customer has entered with id 18 into queue 0
+Customers: 
+  0|xxxxxxxx
+  1|
+  2|
+  3|
+Event time: 527
+a customer has left the bank
+there are 8 customers in line 0
+Customers: 
+  0|xxxxxxxx
+  1|
+  2|
+  3|
+Event time: 527
+this 11th customer entered the bank at time: 365
+this customer was in the bank for 191 seconds
+a customer in queue 0 is being serviced by the bank
+    this will take 29 seconds
+Customers: 
+  0|xxxxxxx
+  1|
+  2|
+  3|
+Event time: 536
+a new customer has entered with id 19 into queue 0
+Customers: 
+  0|xxxxxxxx
+  1|
+  2|
+  3|
+Event time: 548
+a new customer has entered with id 20 into queue 0
+Customers: 
+  0|xxxxxxxxx
+  1|
+  2|
+  3|
+Event time: 553
+this 12th customer entered the bank at time: 371
+this customer was in the bank for 201 seconds
+a customer in queue 0 is being serviced by the bank
+    this will take 19 seconds
+Customers: 
+  0|xxxxxxxx
+  1|
+  2|
+  3|
+Event time: 556
+a customer has left the bank
+there are 8 customers in line 0
+Customers: 
+  0|xxxxxxxx
+  1|
+  2|
+  3|
+Event time: 556
+this 13th customer entered the bank at time: 377
+this customer was in the bank for 266 seconds
+a customer in queue 0 is being serviced by the bank
+    this will take 87 seconds
+Customers: 
+  0|xxxxxxx
+  1|
+  2|
+  3|
+Event time: 572
+a customer has left the bank
+there are 7 customers in line 0
+Customers: 
+  0|xxxxxxx
+  1|
+  2|
+  3|
+Event time: 572
+this 14th customer entered the bank at time: 387
+this customer was in the bank for 304 seconds
+a customer in queue 0 is being serviced by the bank
+    this will take 119 seconds
+Customers: 
+  0|xxxxxx
+  1|
+  2|
+  3|
+Event time: 584
+this 15th customer entered the bank at time: 387
+this customer was in the bank for 235 seconds
+a customer in queue 0 is being serviced by the bank
+    this will take 38 seconds
+Customers: 
+  0|xxxxx
+  1|
+  2|
+  3|
+Event time: 597
+a new customer has entered with id 21 into queue 0
+Customers: 
+  0|xxxxxx
+  1|
+  2|
+  3|
+Event time: 622
+a customer has left the bank
+there are 6 customers in line 0
+Customers: 
+  0|xxxxxx
+  1|
+  2|
+  3|
+Event time: 622
+this 16th customer entered the bank at time: 399
+this customer was in the bank for 223 seconds
+a customer in queue 0 is being serviced by the bank
+    this will take 0 seconds
+Customers: 
+  0|xxxxx
+  1|
+  2|
+  3|
+Event time: 622
+a customer has left the bank
+there are 5 customers in line 0
+Customers: 
+  0|xxxxx
+  1|
+  2|
+  3|
+Event time: 622
+this 17th customer entered the bank at time: 445
+this customer was in the bank for 201 seconds
+a customer in queue 0 is being serviced by the bank
+    this will take 24 seconds
+Customers: 
+  0|xxxx
+  1|
+  2|
+  3|
+Event time: 623
+a new customer has entered with id 22 into queue 0
+Customers: 
+  0|xxxxx
+  1|
+  2|
+  3|
+Event time: 632
+a new customer has entered with id 23 into queue 0
+Customers: 
+  0|xxxxxx
+  1|
+  2|
+  3|
+Event time: 642
+a new customer has entered with id 24 into queue 0
+Customers: 
+  0|xxxxxxx
+  1|
+  2|
+  3|
+Event time: 643
+a customer has left the bank
+there are 7 customers in line 0
+Customers: 
+  0|xxxxxxx
+  1|
+  2|
+  3|
+Event time: 643
+this 18th customer entered the bank at time: 478
+this customer was in the bank for 263 seconds
+a customer in queue 0 is being serviced by the bank
+    this will take 98 seconds
+Customers: 
+  0|xxxxxx
+  1|
+  2|
+  3|
+Event time: 645
+this 19th customer entered the bank at time: 536
+this customer was in the bank for 186 seconds
+a customer in queue 0 is being serviced by the bank
+    this will take 77 seconds
+Customers: 
+  0|xxxxx
+  1|
+  2|
+  3|
+Event time: 646
+a customer has left the bank
+there are 5 customers in line 0
+Customers: 
+  0|xxxxx
+  1|
+  2|
+  3|
+Event time: 646
+this 20th customer entered the bank at time: 548
+this customer was in the bank for 213 seconds
+a customer in queue 0 is being serviced by the bank
+    this will take 115 seconds
+Customers: 
+  0|xxxx
+  1|
+  2|
+  3|
+Event time: 659
+a new customer has entered with id 25 into queue 0
+Customers: 
+  0|xxxxx
+  1|
+  2|
+  3|
+Event time: 691
+a customer has left the bank
+there are 5 customers in line 0
+Customers: 
+  0|xxxxx
+  1|
+  2|
+  3|
+Event time: 691
+a new customer has entered with id 26 into queue 0
+Customers: 
+  0|xxxxxx
+  1|
+  2|
+  3|
+Event time: 691
+this 21th customer entered the bank at time: 597
+this customer was in the bank for 197 seconds
+a customer in queue 0 is being serviced by the bank
+    this will take 103 seconds
+Customers: 
+  0|xxxxx
+  1|
+  2|
+  3|
+Event time: 715
+a new customer has entered with id 27 into queue 0
+Customers: 
+  0|xxxxxx
+  1|
+  2|
+  3|
+Event time: 722
+a customer has left the bank
+there are 6 customers in line 0
+Customers: 
+  0|xxxxxx
+  1|
+  2|
+  3|
+Event time: 722
+this 22th customer entered the bank at time: 623
+this customer was in the bank for 209 seconds
+a customer in queue 0 is being serviced by the bank
+    this will take 110 seconds
+Customers: 
+  0|xxxxx
+  1|
+  2|
+  3|
+Event time: 741
+a customer has left the bank
+there are 5 customers in line 0
+Customers: 
+  0|xxxxx
+  1|
+  2|
+  3|
+Event time: 741
+this 23th customer entered the bank at time: 632
+this customer was in the bank for 201 seconds
+a customer in queue 0 is being serviced by the bank
+    this will take 92 seconds
+Customers: 
+  0|xxxx
+  1|
+  2|
+  3|
+Event time: 761
+a customer has left the bank
+there are 4 customers in line 0
+Customers: 
+  0|xxxx
+  1|
+  2|
+  3|
+Event time: 761
+a new customer has entered with id 28 into queue 0
+Customers: 
+  0|xxxxx
+  1|
+  2|
+  3|
+Event time: 761
+this 24th customer entered the bank at time: 642
+this customer was in the bank for 183 seconds
+a customer in queue 0 is being serviced by the bank
+    this will take 64 seconds
+Customers: 
+  0|xxxx
+  1|
+  2|
+  3|
+Event time: 794
+a customer has left the bank
+there are 4 customers in line 0
+Customers: 
+  0|xxxx
+  1|
+  2|
+  3|
+Event time: 794
+this 25th customer entered the bank at time: 659
+this customer was in the bank for 157 seconds
+a customer in queue 0 is being serviced by the bank
+    this will take 22 seconds
+Customers: 
+  0|xxx
+  1|
+  2|
+  3|
+Event time: 813
+a new customer has entered with id 29 into queue 0
+Customers: 
+  0|xxxx
+  1|
+  2|
+  3|
+Event time: 815
+a new customer has entered with id 30 into queue 0
+Customers: 
+  0|xxxxx
+  1|
+  2|
+  3|
+Event time: 816
+a customer has left the bank
+there are 5 customers in line 0
+Customers: 
+  0|xxxxx
+  1|
+  2|
+  3|
+Event time: 816
+this 26th customer entered the bank at time: 691
+this customer was in the bank for 178 seconds
+a customer in queue 0 is being serviced by the bank
+    this will take 53 seconds
+Customers: 
+  0|xxxx
+  1|
+  2|
+  3|
+Event time: 825
+a customer has left the bank
+there are 4 customers in line 0
+Customers: 
+  0|xxxx
+  1|
+  2|
+  3|
+Event time: 825
+this 27th customer entered the bank at time: 715
+this customer was in the bank for 111 seconds
+a customer in queue 0 is being serviced by the bank
+    this will take 1 seconds
+Customers: 
+  0|xxx
+  1|
+  2|
+  3|
+Event time: 826
+a customer has left the bank
+there are 3 customers in line 0
+Customers: 
+  0|xxx
+  1|
+  2|
+  3|
+Event time: 826
+this 28th customer entered the bank at time: 761
+this customer was in the bank for 178 seconds
+a customer in queue 0 is being serviced by the bank
+    this will take 113 seconds
+Customers: 
+  0|xx
+  1|
+  2|
+  3|
+Event time: 832
+a customer has left the bank
+there are 2 customers in line 0
+Customers: 
+  0|xx
+  1|
+  2|
+  3|
+Event time: 832
+this 29th customer entered the bank at time: 813
+this customer was in the bank for 93 seconds
+a customer in queue 0 is being serviced by the bank
+    this will take 74 seconds
+Customers: 
+  0|x
+  1|
+  2|
+  3|
+Event time: 833
+a customer has left the bank
+there are 1 customers in line 0
+Customers: 
+  0|x
+  1|
+  2|
+  3|
+Event time: 833
+this 30th customer entered the bank at time: 815
+this customer was in the bank for 146 seconds
+a customer in queue 0 is being serviced by the bank
+    this will take 128 seconds
+Customers: 
+  0|
+  1|
+  2|
+  3|
+Event time: 869
+a customer has left the bank
+there are 0 customers in line 0
+Customers: 
+  0|
+  1|
+  2|
+  3|
+Event time: 869
+Due to lack of customers, the teller in queue 0 has gone idle for 248 seconds
+Customers: 
+  0|
+  1|
+  2|
+  3|
+Event time: 888
+a new customer has entered with id 31 into queue 0
+Customers: 
+  0|x
+  1|
+  2|
+  3|
+Event time: 906
+a customer has left the bank
+there are 1 customers in line 0
+Customers: 
+  0|x
+  1|
+  2|
+  3|
+Event time: 906
+this 31th customer entered the bank at time: 888
+this customer was in the bank for 27 seconds
+a customer in queue 0 is being serviced by the bank
+    this will take 9 seconds
+Customers: 
+  0|
+  1|
+  2|
+  3|
+Event time: 915
+a customer has left the bank
+there are 0 customers in line 0
+Customers: 
+  0|
+  1|
+  2|
+  3|
+Event time: 915
+Due to lack of customers, the teller in queue 0 has gone idle for 282 seconds
+Customers: 
+  0|
+  1|
+  2|
+  3|
+Event time: 925
+a new customer has entered with id 32 into queue 0
+Customers: 
+  0|x
+  1|
+  2|
+  3|
+Event time: 939
+a customer has left the bank
+there are 1 customers in line 0
+Customers: 
+  0|x
+  1|
+  2|
+  3|
+Event time: 939
+this 32th customer entered the bank at time: 925
+this customer was in the bank for 61 seconds
+a customer in queue 0 is being serviced by the bank
+    this will take 47 seconds
+Customers: 
+  0|
+  1|
+  2|
+  3|
+Event time: 961
+a customer has left the bank
+there are 0 customers in line 0
+Customers: 
+  0|
+  1|
+  2|
+  3|
+Event time: 961
+Due to lack of customers, the teller in queue 0 has gone idle for 214 seconds
+Customers: 
+  0|
+  1|
+  2|
+  3|
+Event time: 975
+a new customer has entered with id 33 into queue 0
+Customers: 
+  0|x
+  1|
+  2|
+  3|
+Event time: 980
+a new customer has entered with id 34 into queue 0
+Customers: 
+  0|xx
+  1|
+  2|
+  3|
+Event time: 986
+a customer has left the bank
+there are 2 customers in line 0
+Customers: 
+  0|xx
+  1|
+  2|
+  3|
+Event time: 986
+this 33th customer entered the bank at time: 975
+this customer was in the bank for 141 seconds
+a customer in queue 0 is being serviced by the bank
+    this will take 130 seconds
+Customers: 
+  0|x
+  1|
+  2|
+  3|
+Event time: 987
+a new customer has entered with id 35 into queue 0
+Customers: 
+  0|xx
+  1|
+  2|
+  3|
+Event time: 1058
+a new customer has entered with id 36 into queue 0
+Customers: 
+  0|xxx
+  1|
+  2|
+  3|
+Event time: 1071
+a new customer has entered with id 37 into queue 0
+Customers: 
+  0|xxxx
+  1|
+  2|
+  3|
+Event time: 1072
+a new customer has entered with id 38 into queue 0
+Customers: 
+  0|xxxxx
+  1|
+  2|
+  3|
+Event time: 1116
+a customer has left the bank
+there are 5 customers in line 0
+Customers: 
+  0|xxxxx
+  1|
+  2|
+  3|
+Event time: 1116
+this 34th customer entered the bank at time: 980
+this customer was in the bank for 136 seconds
+a customer in queue 0 is being serviced by the bank
+    this will take 0 seconds
+Customers: 
+  0|xxxx
+  1|
+  2|
+  3|
+Event time: 1116
+a customer has left the bank
+there are 4 customers in line 0
+Customers: 
+  0|xxxx
+  1|
+  2|
+  3|
+Event time: 1116
+this 35th customer entered the bank at time: 987
+this customer was in the bank for 203 seconds
+a customer in queue 0 is being serviced by the bank
+    this will take 74 seconds
+Customers: 
+  0|xxx
+  1|
+  2|
+  3|
+Event time: 1117
+this 36th customer entered the bank at time: 1058
+this customer was in the bank for 119 seconds
+a customer in queue 0 is being serviced by the bank
+    this will take 60 seconds
+Customers: 
+  0|xx
+  1|
+  2|
+  3|
+Event time: 1137
+a new customer has entered with id 39 into queue 0
+Customers: 
+  0|xxx
+  1|
+  2|
+  3|
+Event time: 1143
+a new customer has entered with id 40 into queue 0
+Customers: 
+  0|xxxx
+  1|
+  2|
+  3|
+Event time: 1175
+this 37th customer entered the bank at time: 1071
+this customer was in the bank for 239 seconds
+a customer in queue 0 is being serviced by the bank
+    this will take 135 seconds
+Customers: 
+  0|xxx
+  1|
+  2|
+  3|
+Event time: 1177
+a customer has left the bank
+there are 3 customers in line 0
+Customers: 
+  0|xxx
+  1|
+  2|
+  3|
+Event time: 1177
+this 38th customer entered the bank at time: 1072
+this customer was in the bank for 181 seconds
+a customer in queue 0 is being serviced by the bank
+    this will take 76 seconds
+Customers: 
+  0|xx
+  1|
+  2|
+  3|
+Event time: 1190
+a customer has left the bank
+there are 2 customers in line 0
+Customers: 
+  0|xx
+  1|
+  2|
+  3|
+Event time: 1190
+this 39th customer entered the bank at time: 1137
+this customer was in the bank for 182 seconds
+a customer in queue 0 is being serviced by the bank
+    this will take 129 seconds
+Customers: 
+  0|x
+  1|
+  2|
+  3|
+Event time: 1197
+this 40th customer entered the bank at time: 1143
+this customer was in the bank for 110 seconds
+a customer in queue 0 is being serviced by the bank
+    this will take 56 seconds
+Customers: 
+  0|
+  1|
+  2|
+  3|
+Event time: 1253
+a customer has left the bank
+there are 0 customers in line 0
+Customers: 
+  0|
+  1|
+  2|
+  3|
+Event time: 1253
+a customer has left the bank
+there are 0 customers in line 0
+Customers: 
+  0|
+  1|
+  2|
+  3|
+Event time: 1253
+Due to lack of customers, the teller in queue 0 has gone idle for 273 seconds
+Customers: 
+  0|
+  1|
+  2|
+  3|
+Event time: 1253
+Due to lack of customers, the teller in queue 0 has gone idle for 291 seconds
+Customers: 
+  0|
+  1|
+  2|
+  3|
+Event time: 1261
+a new customer has entered with id 41 into queue 0
+Customers: 
+  0|x
+  1|
+  2|
+  3|
+Event time: 1282
+a new customer has entered with id 42 into queue 0
+Customers: 
+  0|xx
+  1|
+  2|
+  3|
+Event time: 1299
+a new customer has entered with id 43 into queue 0
+Customers: 
+  0|xxx
+  1|
+  2|
+  3|
+Event time: 1310
+a customer has left the bank
+there are 3 customers in line 0
+Customers: 
+  0|xxx
+  1|
+  2|
+  3|
+Event time: 1310
+this 41th customer entered the bank at time: 1261
+this customer was in the bank for 144 seconds
+a customer in queue 0 is being serviced by the bank
+    this will take 95 seconds
+Customers: 
+  0|xx
+  1|
+  2|
+  3|
+Event time: 1319
+a customer has left the bank
+there are 2 customers in line 0
+Customers: 
+  0|xx
+  1|
+  2|
+  3|
+Event time: 1319
+this 42th customer entered the bank at time: 1282
+this customer was in the bank for 103 seconds
+a customer in queue 0 is being serviced by the bank
+    this will take 66 seconds
+Customers: 
+  0|x
+  1|
+  2|
+  3|
+Event time: 1385
+a customer has left the bank
+there are 1 customers in line 0
+Customers: 
+  0|x
+  1|
+  2|
+  3|
+Event time: 1385
+this 43th customer entered the bank at time: 1299
+this customer was in the bank for 220 seconds
+a customer in queue 0 is being serviced by the bank
+    this will take 134 seconds
+Customers: 
+  0|
+  1|
+  2|
+  3|
+Event time: 1405
+a customer has left the bank
+there are 0 customers in line 0
+Customers: 
+  0|
+  1|
+  2|
+  3|
+Event time: 1405
+Due to lack of customers, the teller in queue 0 has gone idle for 212 seconds
+Customers: 
+  0|
+  1|
+  2|
+  3|
+Event time: 1420
+a new customer has entered with id 44 into queue 0
+Customers: 
+  0|x
+  1|
+  2|
+  3|
+Event time: 1455
+a new customer has entered with id 45 into queue 0
+Customers: 
+  0|xx
+  1|
+  2|
+  3|
+Event time: 1468
+a new customer has entered with id 46 into queue 0
+Customers: 
+  0|xxx
+  1|
+  2|
+  3|
+Event time: 1469
+a new customer has entered with id 47 into queue 0
+Customers: 
+  0|xxxx
+  1|
+  2|
+  3|
+Event time: 1510
+a new customer has entered with id 48 into queue 0
+Customers: 
+  0|xxxxx
+  1|
+  2|
+  3|
+Event time: 1519
+a customer has left the bank
+there are 5 customers in line 0
+Customers: 
+  0|xxxxx
+  1|
+  2|
+  3|
+Event time: 1519
+this 44th customer entered the bank at time: 1420
+this customer was in the bank for 105 seconds
+a customer in queue 0 is being serviced by the bank
+    this will take 6 seconds
+Customers: 
+  0|xxxx
+  1|
+  2|
+  3|
+Event time: 1521
+a new customer has entered with id 49 into queue 0
+Customers: 
+  0|xxxxx
+  1|
+  2|
+  3|
+Event time: 1525
+a customer has left the bank
+there are 5 customers in line 0
+Customers: 
+  0|xxxxx
+  1|
+  2|
+  3|
+Event time: 1525
+this 45th customer entered the bank at time: 1455
+this customer was in the bank for 84 seconds
+a customer in queue 0 is being serviced by the bank
+    this will take 14 seconds
+Customers: 
+  0|xxxx
+  1|
+  2|
+  3|
+Event time: 1526
+this 46th customer entered the bank at time: 1468
+this customer was in the bank for 119 seconds
+a customer in queue 0 is being serviced by the bank
+    this will take 61 seconds
+Customers: 
+  0|xxx
+  1|
+  2|
+  3|
+Event time: 1532
+a new customer has entered with id 50 into queue 0
+Customers: 
+  0|xxxx
+  1|
+  2|
+  3|
+Event time: 1539
+a customer has left the bank
+there are 4 customers in line 0
+Customers: 
+  0|xxxx
+  1|
+  2|
+  3|
+Event time: 1539
+this 47th customer entered the bank at time: 1469
+this customer was in the bank for 88 seconds
+a customer in queue 0 is being serviced by the bank
+    this will take 18 seconds
+Customers: 
+  0|xxx
+  1|
+  2|
+  3|
+Event time: 1544
+this 48th customer entered the bank at time: 1510
+this customer was in the bank for 140 seconds
+a customer in queue 0 is being serviced by the bank
+    this will take 106 seconds
+Customers: 
+  0|xx
+  1|
+  2|
+  3|
+Event time: 1557
+a customer has left the bank
+there are 2 customers in line 0
+Customers: 
+  0|xx
+  1|
+  2|
+  3|
+Event time: 1557
+this 49th customer entered the bank at time: 1521
+this customer was in the bank for 63 seconds
+a customer in queue 0 is being serviced by the bank
+    this will take 27 seconds
+Customers: 
+  0|x
+  1|
+  2|
+  3|
+Event time: 1569
+a new customer has entered with id 51 into queue 0
+Customers: 
+  0|xx
+  1|
+  2|
+  3|
+Event time: 1584
+a customer has left the bank
+there are 2 customers in line 0
+Customers: 
+  0|xx
+  1|
+  2|
+  3|
+Event time: 1584
+this 50th customer entered the bank at time: 1532
+this customer was in the bank for 92 seconds
+a customer in queue 0 is being serviced by the bank
+    this will take 40 seconds
+Customers: 
+  0|x
+  1|
+  2|
+  3|
+Event time: 1587
+a customer has left the bank
+there are 1 customers in line 0
+Customers: 
+  0|x
+  1|
+  2|
+  3|
+Event time: 1587
+this 51th customer entered the bank at time: 1569
+this customer was in the bank for 39 seconds
+a customer in queue 0 is being serviced by the bank
+    this will take 21 seconds
+Customers: 
+  0|
+  1|
+  2|
+  3|
+Event time: 1608
+a customer has left the bank
+there are 0 customers in line 0
+Customers: 
+  0|
+  1|
+  2|
+  3|
+Event time: 1608
+Due to lack of customers, the teller in queue 0 has gone idle for 282 seconds
+Customers: 
+  0|
+  1|
+  2|
+  3|
+Event time: 1617
+Due to lack of customers, the teller in queue 0 has gone idle for 224 seconds
+Customers: 
+  0|
+  1|
+  2|
+  3|
+Event time: 1624
+a customer has left the bank
+there are 0 customers in line 0
+Customers: 
+  0|
+  1|
+  2|
+  3|
+Event time: 1624
+Due to lack of customers, the teller in queue 0 has gone idle for 208 seconds
+Customers: 
+  0|
+  1|
+  2|
+  3|
+Event time: 1650
+a new customer has entered with id 52 into queue 0
+Customers: 
+  0|x
+  1|
+  2|
+  3|
+Event time: 1650
+a customer has left the bank
+there are 1 customers in line 0
+Customers: 
+  0|x
+  1|
+  2|
+  3|
+Event time: 1650
+this 52th customer entered the bank at time: 1650
+this customer was in the bank for 59 seconds
+a customer in queue 0 is being serviced by the bank
+    this will take 59 seconds
+Customers: 
+  0|
+  1|
+  2|
+  3|
+Event time: 1657
+a new customer has entered with id 53 into queue 0
+Customers: 
+  0|x
+  1|
+  2|
+  3|
+Event time: 1659
+a new customer has entered with id 54 into queue 0
+Customers: 
+  0|xx
+  1|
+  2|
+  3|
+Event time: 1709
+a customer has left the bank
+there are 2 customers in line 0
+Customers: 
+  0|xx
+  1|
+  2|
+  3|
+Event time: 1709
+this 53th customer entered the bank at time: 1657
+this customer was in the bank for 115 seconds
+a customer in queue 0 is being serviced by the bank
+    this will take 63 seconds
+Customers: 
+  0|x
+  1|
+  2|
+  3|
+Event time: 1713
+a new customer has entered with id 55 into queue 0
+Customers: 
+  0|xx
+  1|
+  2|
+  3|
+Event time: 1738
+a new customer has entered with id 56 into queue 0
+Customers: 
+  0|xxx
+  1|
+  2|
+  3|
+Event time: 1772
+a customer has left the bank
+there are 3 customers in line 0
+Customers: 
+  0|xxx
+  1|
+  2|
+  3|
+Event time: 1772
+this 54th customer entered the bank at time: 1659
+this customer was in the bank for 120 seconds
+a customer in queue 0 is being serviced by the bank
+    this will take 7 seconds
+Customers: 
+  0|xx
+  1|
+  2|
+  3|
+Event time: 1779
+a customer has left the bank
+there are 2 customers in line 0
+Customers: 
+  0|xx
+  1|
+  2|
+  3|
+Event time: 1779
+this 55th customer entered the bank at time: 1713
+this customer was in the bank for 148 seconds
+a customer in queue 0 is being serviced by the bank
+    this will take 82 seconds
+Customers: 
+  0|x
+  1|
+  2|
+  3|
+Event time: 1829
+a new customer has entered with id 57 into queue 0
+Customers: 
+  0|xx
+  1|
+  2|
+  3|
+Event time: 1832
+this 56th customer entered the bank at time: 1738
+this customer was in the bank for 204 seconds
+a customer in queue 0 is being serviced by the bank
+    this will take 110 seconds
+Customers: 
+  0|x
+  1|
+  2|
+  3|
+Event time: 1841
+this 57th customer entered the bank at time: 1829
+this customer was in the bank for 88 seconds
+a customer in queue 0 is being serviced by the bank
+    this will take 76 seconds
+Customers: 
+  0|
+  1|
+  2|
+  3|
+Event time: 1861
+a customer has left the bank
+there are 0 customers in line 0
+Customers: 
+  0|
+  1|
+  2|
+  3|
+Event time: 1861
+Due to lack of customers, the teller in queue 0 has gone idle for 213 seconds
+Customers: 
+  0|
+  1|
+  2|
+  3|
+Event time: 1890
+Due to lack of customers, the teller in queue 0 has gone idle for 152 seconds
+Customers: 
+  0|
+  1|
+  2|
+  3|
+Event time: 1917
+a customer has left the bank
+there are 0 customers in line 0
+Customers: 
+  0|
+  1|
+  2|
+  3|
+Event time: 1917
+Due to lack of customers, the teller in queue 0 has gone idle for 257 seconds
+Customers: 
+  0|
+  1|
+  2|
+  3|
+Event time: 1938
+a new customer has entered with id 58 into queue 0
+Customers: 
+  0|x
+  1|
+  2|
+  3|
+Event time: 1942
+a customer has left the bank
+there are 1 customers in line 0
+Customers: 
+  0|x
+  1|
+  2|
+  3|
+Event time: 1942
+this 58th customer entered the bank at time: 1938
+this customer was in the bank for 40 seconds
+a customer in queue 0 is being serviced by the bank
+    this will take 36 seconds
+Customers: 
+  0|
+  1|
+  2|
+  3|
+Event time: 1959
+a new customer has entered with id 59 into queue 0
+Customers: 
+  0|x
+  1|
+  2|
+  3|
+Event time: 1978
+a customer has left the bank
+there are 1 customers in line 0
+Customers: 
+  0|x
+  1|
+  2|
+  3|
+Event time: 1978
+this 59th customer entered the bank at time: 1959
+this customer was in the bank for 29 seconds
+a customer in queue 0 is being serviced by the bank
+    this will take 10 seconds
+Customers: 
+  0|
+  1|
+  2|
+  3|
+Event time: 1988
+a customer has left the bank
+there are 0 customers in line 0
+Customers: 
+  0|
+  1|
+  2|
+  3|
+Event time: 1988
+Due to lack of customers, the teller in queue 0 has gone idle for 286 seconds
+Customers: 
+  0|
+  1|
+  2|
+  3|
+Event time: 2007
+a new customer has entered with id 60 into queue 0
+Customers: 
+  0|x
+  1|
+  2|
+  3|
+Event time: 2025
+a new customer has entered with id 61 into queue 0
+Customers: 
+  0|xx
+  1|
+  2|
+  3|
+Event time: 2042
+this 60th customer entered the bank at time: 2007
+this customer was in the bank for 62 seconds
+a customer in queue 0 is being serviced by the bank
+    this will take 27 seconds
+Customers: 
+  0|x
+  1|
+  2|
+  3|
+Event time: 2069
+a customer has left the bank
+there are 1 customers in line 0
+Customers: 
+  0|x
+  1|
+  2|
+  3|
+Event time: 2069
+this 61th customer entered the bank at time: 2025
+this customer was in the bank for 111 seconds
+a customer in queue 0 is being serviced by the bank
+    this will take 67 seconds
+Customers: 
+  0|
+  1|
+  2|
+  3|
+Event time: 2074
+Due to lack of customers, the teller in queue 0 has gone idle for 160 seconds
+Customers: 
+  0|
+  1|
+  2|
+  3|
+Event time: 2136
+a customer has left the bank
+there are 0 customers in line 0
+Customers: 
+  0|
+  1|
+  2|
+  3|
+Event time: 2136
+Due to lack of customers, the teller in queue 0 has gone idle for 181 seconds
+Customers: 
+  0|
+  1|
+  2|
+  3|
+Event time: 2166
+a new customer has entered with id 62 into queue 0
+Customers: 
+  0|x
+  1|
+  2|
+  3|
+Event time: 2174
+this 62th customer entered the bank at time: 2166
+this customer was in the bank for 72 seconds
+a customer in queue 0 is being serviced by the bank
+    this will take 64 seconds
+Customers: 
+  0|
+  1|
+  2|
+  3|
+Event time: 2199
+a new customer has entered with id 63 into queue 0
+Customers: 
+  0|x
+  1|
+  2|
+  3|
+Event time: 2209
+a new customer has entered with id 64 into queue 0
+Customers: 
+  0|xx
+  1|
+  2|
+  3|
+Event time: 2234
+this 63th customer entered the bank at time: 2199
+this customer was in the bank for 158 seconds
+a customer in queue 0 is being serviced by the bank
+    this will take 123 seconds
+Customers: 
+  0|x
+  1|
+  2|
+  3|
+Event time: 2238
+a customer has left the bank
+there are 1 customers in line 0
+Customers: 
+  0|x
+  1|
+  2|
+  3|
+Event time: 2238
+this 64th customer entered the bank at time: 2209
+this customer was in the bank for 65 seconds
+a customer in queue 0 is being serviced by the bank
+    this will take 36 seconds
+Customers: 
+  0|
+  1|
+  2|
+  3|
+Event time: 2245
+a new customer has entered with id 65 into queue 0
+Customers: 
+  0|x
+  1|
+  2|
+  3|
+Event time: 2249
+a new customer has entered with id 66 into queue 0
+Customers: 
+  0|xx
+  1|
+  2|
+  3|
+Event time: 2264
+a new customer has entered with id 67 into queue 0
+Customers: 
+  0|xxx
+  1|
+  2|
+  3|
+Event time: 2274
+this 65th customer entered the bank at time: 2245
+this customer was in the bank for 148 seconds
+a customer in queue 0 is being serviced by the bank
+    this will take 119 seconds
+Customers: 
+  0|xx
+  1|
+  2|
+  3|
+Event time: 2274
+a customer has left the bank
+there are 2 customers in line 0
+Customers: 
+  0|xx
+  1|
+  2|
+  3|
+Event time: 2274
+this 66th customer entered the bank at time: 2249
+this customer was in the bank for 154 seconds
+a customer in queue 0 is being serviced by the bank
+    this will take 129 seconds
+Customers: 
+  0|x
+  1|
+  2|
+  3|
+Event time: 2316
+a new customer has entered with id 68 into queue 0
+Customers: 
+  0|xx
+  1|
+  2|
+  3|
+Event time: 2317
+this 67th customer entered the bank at time: 2264
+this customer was in the bank for 103 seconds
+a customer in queue 0 is being serviced by the bank
+    this will take 50 seconds
+Customers: 
+  0|x
+  1|
+  2|
+  3|
+Event time: 2357
+a customer has left the bank
+there are 1 customers in line 0
+Customers: 
+  0|x
+  1|
+  2|
+  3|
+Event time: 2357
+this 68th customer entered the bank at time: 2316
+this customer was in the bank for 123 seconds
+a customer in queue 0 is being serviced by the bank
+    this will take 82 seconds
+Customers: 
+  0|
+  1|
+  2|
+  3|
+Event time: 2367
+a customer has left the bank
+there are 0 customers in line 0
+Customers: 
+  0|
+  1|
+  2|
+  3|
+Event time: 2367
+Due to lack of customers, the teller in queue 0 has gone idle for 224 seconds
+Customers: 
+  0|
+  1|
+  2|
+  3|
+Event time: 2393
+a customer has left the bank
+there are 0 customers in line 0
+Customers: 
+  0|
+  1|
+  2|
+  3|
+Event time: 2393
+Due to lack of customers, the teller in queue 0 has gone idle for 299 seconds
+Customers: 
+  0|
+  1|
+  2|
+  3|
+Event time: 2403
+a customer has left the bank
+there are 0 customers in line 0
+Customers: 
+  0|
+  1|
+  2|
+  3|
+Event time: 2403
+Due to lack of customers, the teller in queue 0 has gone idle for 295 seconds
+Customers: 
+  0|
+  1|
+  2|
+  3|
+Event time: 2439
+a customer has left the bank
+there are 0 customers in line 0
+Customers: 
+  0|
+  1|
+  2|
+  3|
+Event time: 2439
+Due to lack of customers, the teller in queue 0 has gone idle for 251 seconds
+Customers: 
+  0|
+  1|
+  2|
+  3|
+Event time: 2450
+a new customer has entered with id 69 into queue 0
+Customers: 
+  0|x
+  1|
+  2|
+  3|
+Event time: 2495
+a new customer has entered with id 70 into queue 0
+Customers: 
+  0|xx
+  1|
+  2|
+  3|
+Event time: 2529
+a new customer has entered with id 71 into queue 0
+Customers: 
+  0|xxx
+  1|
+  2|
+  3|
+Event time: 2535
+a new customer has entered with id 72 into queue 0
+Customers: 
+  0|xxxx
+  1|
+  2|
+  3|
+Event time: 2581
+a new customer has entered with id 73 into queue 0
+Customers: 
+  0|xxxxx
+  1|
+  2|
+  3|
+Event time: 2591
+this 69th customer entered the bank at time: 2450
+this customer was in the bank for 261 seconds
+a customer in queue 0 is being serviced by the bank
+    this will take 120 seconds
+Customers: 
+  0|xxxx
+  1|
+  2|
+  3|
+Event time: 2617
+a new customer has entered with id 74 into queue 0
+Customers: 
+  0|xxxxx
+  1|
+  2|
+  3|
+Event time: 2647
+a new customer has entered with id 75 into queue 0
+Customers: 
+  0|xxxxxx
+  1|
+  2|
+  3|
+Event time: 2690
+this 70th customer entered the bank at time: 2495
+this customer was in the bank for 236 seconds
+a customer in queue 0 is being serviced by the bank
+    this will take 41 seconds
+Customers: 
+  0|xxxxx
+  1|
+  2|
+  3|
+Event time: 2692
+this 71th customer entered the bank at time: 2529
+this customer was in the bank for 210 seconds
+a customer in queue 0 is being serviced by the bank
+    this will take 47 seconds
+Customers: 
+  0|xxxx
+  1|
+  2|
+  3|
+Event time: 2698
+this 72th customer entered the bank at time: 2535
+this customer was in the bank for 280 seconds
+a customer in queue 0 is being serviced by the bank
+    this will take 117 seconds
+Customers: 
+  0|xxx
+  1|
+  2|
+  3|
+Event time: 2711
+a customer has left the bank
+there are 3 customers in line 0
+Customers: 
+  0|xxx
+  1|
+  2|
+  3|
+Event time: 2711
+this 73th customer entered the bank at time: 2581
+this customer was in the bank for 230 seconds
+a customer in queue 0 is being serviced by the bank
+    this will take 100 seconds
+Customers: 
+  0|xx
+  1|
+  2|
+  3|
+Event time: 2726
+a new customer has entered with id 76 into queue 0
+Customers: 
+  0|xxx
+  1|
+  2|
+  3|
+Event time: 2731
+a customer has left the bank
+there are 3 customers in line 0
+Customers: 
+  0|xxx
+  1|
+  2|
+  3|
+Event time: 2731
+this 74th customer entered the bank at time: 2617
+this customer was in the bank for 224 seconds
+a customer in queue 0 is being serviced by the bank
+    this will take 110 seconds
+Customers: 
+  0|xx
+  1|
+  2|
+  3|
+Event time: 2738
+a new customer has entered with id 77 into queue 0
+Customers: 
+  0|xxx
+  1|
+  2|
+  3|
+Event time: 2739
+a customer has left the bank
+there are 3 customers in line 0
+Customers: 
+  0|xxx
+  1|
+  2|
+  3|
+Event time: 2739
+this 75th customer entered the bank at time: 2647
+this customer was in the bank for 118 seconds
+a customer in queue 0 is being serviced by the bank
+    this will take 26 seconds
+Customers: 
+  0|xx
+  1|
+  2|
+  3|
+Event time: 2758
+a new customer has entered with id 78 into queue 0
+Customers: 
+  0|xxx
+  1|
+  2|
+  3|
+Event time: 2764
+a new customer has entered with id 79 into queue 0
+Customers: 
+  0|xxxx
+  1|
+  2|
+  3|
+Event time: 2765
+a customer has left the bank
+there are 4 customers in line 0
+Customers: 
+  0|xxxx
+  1|
+  2|
+  3|
+Event time: 2765
+this 76th customer entered the bank at time: 2726
+this customer was in the bank for 83 seconds
+a customer in queue 0 is being serviced by the bank
+    this will take 44 seconds
+Customers: 
+  0|xxx
+  1|
+  2|
+  3|
+Event time: 2805
+a new customer has entered with id 80 into queue 0
+Customers: 
+  0|xxxx
+  1|
+  2|
+  3|
+Event time: 2809
+a customer has left the bank
+there are 4 customers in line 0
+Customers: 
+  0|xxxx
+  1|
+  2|
+  3|
+Event time: 2809
+this 77th customer entered the bank at time: 2738
+this customer was in the bank for 194 seconds
+a customer in queue 0 is being serviced by the bank
+    this will take 123 seconds
+Customers: 
+  0|xxx
+  1|
+  2|
+  3|
+Event time: 2811
+a customer has left the bank
+there are 3 customers in line 0
+Customers: 
+  0|xxx
+  1|
+  2|
+  3|
+Event time: 2811
+this 78th customer entered the bank at time: 2758
+this customer was in the bank for 58 seconds
+a customer in queue 0 is being serviced by the bank
+    this will take 5 seconds
+Customers: 
+  0|xx
+  1|
+  2|
+  3|
+Event time: 2815
+a customer has left the bank
+there are 2 customers in line 0
+Customers: 
+  0|xx
+  1|
+  2|
+  3|
+Event time: 2815
+this 79th customer entered the bank at time: 2764
+this customer was in the bank for 71 seconds
+a customer in queue 0 is being serviced by the bank
+    this will take 20 seconds
+Customers: 
+  0|x
+  1|
+  2|
+  3|
+Event time: 2816
+a customer has left the bank
+there are 1 customers in line 0
+Customers: 
+  0|x
+  1|
+  2|
+  3|
+Event time: 2816
+this 80th customer entered the bank at time: 2805
+this customer was in the bank for 147 seconds
+a customer in queue 0 is being serviced by the bank
+    this will take 136 seconds
+Customers: 
+  0|
+  1|
+  2|
+  3|
+Event time: 2835
+a customer has left the bank
+there are 0 customers in line 0
+Customers: 
+  0|
+  1|
+  2|
+  3|
+Event time: 2835
+Due to lack of customers, the teller in queue 0 has gone idle for 298 seconds
+Customers: 
+  0|
+  1|
+  2|
+  3|
+Event time: 2841
+a customer has left the bank
+there are 0 customers in line 0
+Customers: 
+  0|
+  1|
+  2|
+  3|
+Event time: 2841
+Due to lack of customers, the teller in queue 0 has gone idle for 213 seconds
+Customers: 
+  0|
+  1|
+  2|
+  3|
+Event time: 2914
+a new customer has entered with id 81 into queue 0
+Customers: 
+  0|x
+  1|
+  2|
+  3|
+Event time: 2932
+a customer has left the bank
+there are 1 customers in line 0
+Customers: 
+  0|x
+  1|
+  2|
+  3|
+Event time: 2932
+a new customer has entered with id 82 into queue 0
+Customers: 
+  0|xx
+  1|
+  2|
+  3|
+Event time: 2932
+this 81th customer entered the bank at time: 2914
+this customer was in the bank for 66 seconds
+a customer in queue 0 is being serviced by the bank
+    this will take 48 seconds
+Customers: 
+  0|x
+  1|
+  2|
+  3|
+Event time: 2952
+a customer has left the bank
+there are 1 customers in line 0
+Customers: 
+  0|x
+  1|
+  2|
+  3|
+Event time: 2952
+this 82th customer entered the bank at time: 2932
+this customer was in the bank for 68 seconds
+a customer in queue 0 is being serviced by the bank
+    this will take 48 seconds
+Customers: 
+  0|
+  1|
+  2|
+  3|
+Event time: 2980
+a customer has left the bank
+there are 0 customers in line 0
+Customers: 
+  0|
+  1|
+  2|
+  3|
+Event time: 2980
+Due to lack of customers, the teller in queue 0 has gone idle for 252 seconds
+Customers: 
+  0|
+  1|
+  2|
+  3|
+Event time: 3000
+a customer has left the bank
+there are 0 customers in line 0
+Customers: 
+  0|
+  1|
+  2|
+  3|
+Event time: 3000
+Due to lack of customers, the teller in queue 0 has gone idle for 230 seconds
+Customers: 
+  0|
+  1|
+  2|
+  3|
+Event time: 3047
+a new customer has entered with id 83 into queue 0
+Customers: 
+  0|x
+  1|
+  2|
+  3|
+Event time: 3054
+this 83th customer entered the bank at time: 3047
+this customer was in the bank for 112 seconds
+a customer in queue 0 is being serviced by the bank
+    this will take 105 seconds
+Customers: 
+  0|
+  1|
+  2|
+  3|
+Event time: 3077
+a new customer has entered with id 84 into queue 0
+Customers: 
+  0|x
+  1|
+  2|
+  3|
+Event time: 3082
+a new customer has entered with id 85 into queue 0
+Customers: 
+  0|xx
+  1|
+  2|
+  3|
+Event time: 3088
+a new customer has entered with id 86 into queue 0
+Customers: 
+  0|xxx
+  1|
+  2|
+  3|
+Event time: 3133
+this 84th customer entered the bank at time: 3077
+this customer was in the bank for 179 seconds
+a customer in queue 0 is being serviced by the bank
+    this will take 123 seconds
+Customers: 
+  0|xx
+  1|
+  2|
+  3|
+Event time: 3159
+a customer has left the bank
+there are 2 customers in line 0
+Customers: 
+  0|xx
+  1|
+  2|
+  3|
+Event time: 3159
+this 85th customer entered the bank at time: 3082
+this customer was in the bank for 118 seconds
+a customer in queue 0 is being serviced by the bank
+    this will take 41 seconds
+Customers: 
+  0|x
+  1|
+  2|
+  3|
+Event time: 3177
+a new customer has entered with id 87 into queue 0
+Customers: 
+  0|xx
+  1|
+  2|
+  3|
+Event time: 3200
+a customer has left the bank
+there are 2 customers in line 0
+Customers: 
+  0|xx
+  1|
+  2|
+  3|
+Event time: 3200
+this 86th customer entered the bank at time: 3088
+this customer was in the bank for 243 seconds
+a customer in queue 0 is being serviced by the bank
+    this will take 131 seconds
+Customers: 
+  0|x
+  1|
+  2|
+  3|
+Event time: 3209
+a new customer has entered with id 88 into queue 0
+Customers: 
+  0|xx
+  1|
+  2|
+  3|
+Event time: 3225
+a new customer has entered with id 89 into queue 0
+Customers: 
+  0|xxx
+  1|
+  2|
+  3|
+Event time: 3230
+this 87th customer entered the bank at time: 3177
+this customer was in the bank for 115 seconds
+a customer in queue 0 is being serviced by the bank
+    this will take 62 seconds
+Customers: 
+  0|xx
+  1|
+  2|
+  3|
+Event time: 3232
+this 88th customer entered the bank at time: 3209
+this customer was in the bank for 86 seconds
+a customer in queue 0 is being serviced by the bank
+    this will take 63 seconds
+Customers: 
+  0|x
+  1|
+  2|
+  3|
+Event time: 3236
+a new customer has entered with id 90 into queue 0
+Customers: 
+  0|xx
+  1|
+  2|
+  3|
+Event time: 3256
+a customer has left the bank
+there are 2 customers in line 0
+Customers: 
+  0|xx
+  1|
+  2|
+  3|
+Event time: 3256
+this 89th customer entered the bank at time: 3225
+this customer was in the bank for 55 seconds
+a customer in queue 0 is being serviced by the bank
+    this will take 24 seconds
+Customers: 
+  0|x
+  1|
+  2|
+  3|
+Event time: 3280
+a customer has left the bank
+there are 1 customers in line 0
+Customers: 
+  0|x
+  1|
+  2|
+  3|
+Event time: 3280
+this 90th customer entered the bank at time: 3236
+this customer was in the bank for 58 seconds
+a customer in queue 0 is being serviced by the bank
+    this will take 14 seconds
+Customers: 
+  0|
+  1|
+  2|
+  3|
+Event time: 3292
+a customer has left the bank
+there are 0 customers in line 0
+Customers: 
+  0|
+  1|
+  2|
+  3|
+Event time: 3292
+Due to lack of customers, the teller in queue 0 has gone idle for 258 seconds
+Customers: 
+  0|
+  1|
+  2|
+  3|
+Event time: 3294
+a customer has left the bank
+there are 0 customers in line 0
+Customers: 
+  0|
+  1|
+  2|
+  3|
+Event time: 3294
+Due to lack of customers, the teller in queue 0 has gone idle for 159 seconds
+Customers: 
+  0|
+  1|
+  2|
+  3|
+Event time: 3295
+a customer has left the bank
+there are 0 customers in line 0
+Customers: 
+  0|
+  1|
+  2|
+  3|
+Event time: 3295
+Due to lack of customers, the teller in queue 0 has gone idle for 182 seconds
+Customers: 
+  0|
+  1|
+  2|
+  3|
+Event time: 3331
+a customer has left the bank
+there are 0 customers in line 0
+Customers: 
+  0|
+  1|
+  2|
+  3|
+Event time: 3331
+Due to lack of customers, the teller in queue 0 has gone idle for 252 seconds
+Customers: 
+  0|
+  1|
+  2|
+  3|
+Event time: 3355
+a new customer has entered with id 91 into queue 0
+Customers: 
+  0|x
+  1|
+  2|
+  3|
+Event time: 3362
+a new customer has entered with id 92 into queue 0
+Customers: 
+  0|xx
+  1|
+  2|
+  3|
+Event time: 3406
+a new customer has entered with id 93 into queue 0
+Customers: 
+  0|xxx
+  1|
+  2|
+  3|
+Event time: 3429
+a new customer has entered with id 94 into queue 0
+Customers: 
+  0|xxxx
+  1|
+  2|
+  3|
+Event time: 3441
+a new customer has entered with id 95 into queue 0
+Customers: 
+  0|xxxxx
+  1|
+  2|
+  3|
+Event time: 3453
+this 91th customer entered the bank at time: 3355
+this customer was in the bank for 204 seconds
+a customer in queue 0 is being serviced by the bank
+    this will take 106 seconds
+Customers: 
+  0|xxxx
+  1|
+  2|
+  3|
+Event time: 3477
+this 92th customer entered the bank at time: 3362
+this customer was in the bank for 170 seconds
+a customer in queue 0 is being serviced by the bank
+    this will take 55 seconds
+Customers: 
+  0|xxx
+  1|
+  2|
+  3|
+Event time: 3532
+a customer has left the bank
+there are 3 customers in line 0
+Customers: 
+  0|xxx
+  1|
+  2|
+  3|
+Event time: 3532
+this 93th customer entered the bank at time: 3406
+this customer was in the bank for 128 seconds
+a customer in queue 0 is being serviced by the bank
+    this will take 2 seconds
+Customers: 
+  0|xx
+  1|
+  2|
+  3|
+Event time: 3534
+a customer has left the bank
+there are 2 customers in line 0
+Customers: 
+  0|xx
+  1|
+  2|
+  3|
+Event time: 3534
+this 94th customer entered the bank at time: 3429
+this customer was in the bank for 120 seconds
+a customer in queue 0 is being serviced by the bank
+    this will take 15 seconds
+Customers: 
+  0|x
+  1|
+  2|
+  3|
+Event time: 3538
+a new customer has entered with id 96 into queue 0
+Customers: 
+  0|xx
+  1|
+  2|
+  3|
+Event time: 3547
+a new customer has entered with id 97 into queue 0
+Customers: 
+  0|xxx
+  1|
+  2|
+  3|
+Event time: 3549
+a customer has left the bank
+there are 3 customers in line 0
+Customers: 
+  0|xxx
+  1|
+  2|
+  3|
+Event time: 3549
+this 95th customer entered the bank at time: 3441
+this customer was in the bank for 182 seconds
+a customer in queue 0 is being serviced by the bank
+    this will take 74 seconds
+Customers: 
+  0|xx
+  1|
+  2|
+  3|
+Event time: 3550
+this 96th customer entered the bank at time: 3538
+this customer was in the bank for 16 seconds
+a customer in queue 0 is being serviced by the bank
+    this will take 4 seconds
+Customers: 
+  0|x
+  1|
+  2|
+  3|
+Event time: 3554
+a customer has left the bank
+there are 1 customers in line 0
+Customers: 
+  0|x
+  1|
+  2|
+  3|
+Event time: 3554
+this 97th customer entered the bank at time: 3547
+this customer was in the bank for 35 seconds
+a customer in queue 0 is being serviced by the bank
+    this will take 28 seconds
+Customers: 
+  0|
+  1|
+  2|
+  3|
+Event time: 3559
+a customer has left the bank
+there are 0 customers in line 0
+Customers: 
+  0|
+  1|
+  2|
+  3|
+Event time: 3559
+Due to lack of customers, the teller in queue 0 has gone idle for 264 seconds
+Customers: 
+  0|
+  1|
+  2|
+  3|
+Event time: 3573
+a new customer has entered with id 98 into queue 0
+Customers: 
+  0|x
+  1|
+  2|
+  3|
+Event time: 3580
+a new customer has entered with id 99 into queue 0
+Customers: 
+  0|xx
+  1|
+  2|
+  3|
+Event time: 3582
+a customer has left the bank
+there are 2 customers in line 0
+Customers: 
+  0|xx
+  1|
+  2|
+  3|
+Event time: 3582
+this 98th customer entered the bank at time: 3573
+this customer was in the bank for 57 seconds
+a customer in queue 0 is being serviced by the bank
+    this will take 48 seconds
+Customers: 
+  0|x
+  1|
+  2|
+  3|
+Event time: 3583
+this 99th customer entered the bank at time: 3580
+this customer was in the bank for 56 seconds
+a customer in queue 0 is being serviced by the bank
+    this will take 53 seconds
+Customers: 
+  0|
+  1|
+  2|
+  3|
+Event time: 3623
+a customer has left the bank
+there are 0 customers in line 0
+Customers: 
+  0|
+  1|
+  2|
+  3|
+Event time: 3623
+Customers: 
+  0|
+  1|
+  2|
+  3|
+Event time: 3630
+a customer has left the bank
+there are 0 customers in line 0
+Customers: 
+  0|
+  1|
+  2|
+  3|
+Event time: 3630
+Customers: 
+  0|
+  1|
+  2|
+  3|
+Event time: 3636
+a customer has left the bank
+there are 0 customers in line 0
+Customers: 
+  0|
+  1|
+  2|
+  3|
+Event time: 3636
+Customers: 
+  0|
+  1|
+  2|
+  3|
+SINGLE QUEUE
+   # there were 100 customers served
+   # it took 3636 seconds to serve all the customers
+   # there were 4 tellers in a multi-queue system
+   # the customers were in the bank for an average of 141.83 seconds
+   # with a standard deviation of 69.5737 seconds
+   # the longest time a customer waited in line was: 223 seconds
+   # the total teller idle time was 8048
+   # and the total service time was 6544
+

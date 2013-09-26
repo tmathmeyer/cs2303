@@ -3,11 +3,20 @@
 
 
 //Functions for Events
-int BankEvent::getTime()
+int TellerEvent::getTime()
 {
     return time;
 }
-int BankEvent::setTime(int t)
+int TellerEvent::setTime(int t)
+{
+    return time = t;
+}
+
+int CustomerEvent::getTime()
+{
+    return time;
+}
+int CustomerEvent::setTime(int t)
 {
     return time = t;
 }
@@ -58,7 +67,7 @@ int EventQueue::hasNext()
     return next != NULL;
 }
 
-EventQueue::EventQueue   (BankEvent* e)
+EventQueue::EventQueue (BankEvent* e)
 {
     data = e;
     next = NULL;
