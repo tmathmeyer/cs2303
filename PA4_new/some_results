@@ -1,0 +1,19 @@
+MULTI QUEUE
+   # there were 100 customers served
+   # it took 3864 seconds to serve all the customers
+   # there were 4 tellers in a multi-queue system
+   # the customers were in the bank for an average of 134.76 seconds
+   # with a standard deviation of 54.9646 seconds
+   # the longest time a customer waited in line was: 253 seconds
+   # the total teller idle time was 14832
+   # and the total service time was 214
+
+SINGLE QUEUE
+   # there were 100 customers served
+   # it took 3774 seconds to serve all the customers
+   # there were 4 tellers in a multi-queue system
+   # the customers were in the bank for an average of 51.36 seconds
+   # with a standard deviation of 38.0017 seconds
+   # the longest time a customer waited in line was: 164 seconds
+   # the total teller idle time was 14786
+   # and the total service time was 197

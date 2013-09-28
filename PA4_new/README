@@ -1,0 +1,118 @@
+#==============================#
+|           Ted Meyer          |
+|            github:           |
+| github.com/tmathmeyer/cs2303 |
+#==============================#
+
+
+
+#===================#
+|      Summary      |
+#===================#
+	This is the event driven simulation problem (obviously).
+	FIRSTLY:
+		excuse the ugliness of this code.
+	SECONDLY:
+		there are some issues with running a simulation with
+		large numbers. I ran ./qSim 10000 100 60 300, and it
+		used 26GB of my ram in 15 seconds. 
+	THIRDLY:
+		./qSim [#customers] [#tellers] [#time (in minutes)] [#time (in seconds)]
+		I counted my program by seconds instead of by minutes,
+		As I found it gave more consistent results due to the
+		lack of having to compute floating point numbers.
+	FOURTHLY:
+		obviously, my classes are named differently than the
+		assignment specifies:
+			Customer -> CustomerEvent
+			Teller -> TellerEvent
+			Event -> BankEvent
+			EventQueue for the queue (not a struct);
+			the "Action" method is called "onCompletion()"
+	LASTLY:
+		there is another optional flag to put into the program,
+		after a seed is specified. adding the number 1
+		will cause extra print statements, as well as the require
+		the anykey to be pressed in order to advance the
+		simulation. 
+
+
+
+#===================#
+|      analysis     |
+#===================#
+	It seems after running the tests a few times that the single
+	queue is better.
+
+
+
+#===================#
+|       tests       |
+#===================#
+
+[ted@hyperion]~/git/cs2303/PA4_new(master +)
+$ ./qSim 100 4 60 100 1380323843
+MULTI QUEUE
+   # there were 100 customers served
+   # it took 3769 seconds to serve all the customers
+   # there were 4 tellers in a multi-queue system
+   # the customers were in the bank for an average of 153.8 seconds
+   # with a standard deviation of 53.1334 seconds
+   # the longest time a customer waited in line was: 215 seconds
+   # the total teller idle time was 9741
+   # and the total service time was 5252
+SINGLE QUEUE
+   # there were 100 customers served
+   # it took 3799 seconds to serve all the customers
+   # there were 4 tellers in a multi-queue system
+   # the customers were in the bank for an average of 99.72 seconds
+   # with a standard deviation of 48.3411 seconds
+   # the longest time a customer waited in line was: 169 seconds
+   # the total teller idle time was 9961
+   # and the total service time was 5003
+
+
+
+[ted@hyperion]~/git/cs2303/PA4_new(master +)
+./qSim 100 4 60 100 1380323886
+MULTI QUEUE
+   # there were 100 customers served
+   # it took 3891 seconds to serve all the customers
+   # there were 4 tellers in a multi-queue system
+   # the customers were in the bank for an average of 151.9 seconds
+   # with a standard deviation of 49.9747 seconds
+   # the longest time a customer waited in line was: 193 seconds
+   # the total teller idle time was 10483
+   # and the total service time was 4818
+SINGLE QUEUE
+   # there were 100 customers served
+   # it took 3712 seconds to serve all the customers
+   # there were 4 tellers in a multi-queue system
+   # the customers were in the bank for an average of 99.98 seconds
+   # with a standard deviation of 54.6465 seconds
+   # the longest time a customer waited in line was: 153 seconds
+   # the total teller idle time was 10055
+   # and the total service time was 4588
+
+
+
+[ted@hyperion]~/git/cs2303/PA4_new(master +)
+$ ./qSim 100 4 60 100 1380324187
+MULTI QUEUE
+   # there were 100 customers served
+   # it took 3804 seconds to serve all the customers
+   # there were 4 tellers in a multi-queue system
+   # the customers were in the bank for an average of 155.84 seconds
+   # with a standard deviation of 52.6549 seconds
+   # the longest time a customer waited in line was: 222 seconds
+   # the total teller idle time was 10295
+   # and the total service time was 4796
+SINGLE QUEUE
+   # there were 100 customers served
+   # it took 3662 seconds to serve all the customers
+   # there were 4 tellers in a multi-queue system
+   # the customers were in the bank for an average of 116.65 seconds
+   # with a standard deviation of 58.4223 seconds
+   # the longest time a customer waited in line was: 185 seconds
+   # the total teller idle time was 9599
+   # and the total service time was 5011

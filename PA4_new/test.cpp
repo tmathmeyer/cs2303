@@ -23,6 +23,7 @@ int pos = 0;
 int inspos = 0;
 int maxTime = 0;
 int uni = 0;
+int DEBUG = 0;
 
 
 
@@ -32,13 +33,19 @@ int main(int argc, char*argv[]){
     simTime = 60*atoi(argv[3]); //IM USING SECONDS
     ast = atoi(argv[4]);
 
-    if (argc == 6)
+    if (argc >= 6)
     {
         srand(atoi(argv[5]));
+        if (argc >= 7)
+        {
+            DEBUG = atoi(argv[6]);
+        }
     }
     else
     {
-        srand(time(NULL));
+        int a = time(NULL);
+        srand(a);
+        cout << a << endl;
     }
 
     runMultiQueueSimulation();
@@ -67,11 +74,11 @@ void runMultiQueueSimulation()
     while(eq.hasNext())
     {
         clck = eq.getData()->getTime();
-        //cout << "Event time: " << clck << endl;
+        if (DEBUG) cout << "Event time: " << clck << endl;
         eq.getData()->onCompletion(&eq);
-        //printCustomers(tellers);
+        if (DEBUG) printCustomers(tellers);
         eq = *(eq.next);
-        //getchar();
+        if (DEBUG) getchar();
     }
 
     cout << "MULTI QUEUE" << endl;
@@ -113,11 +120,11 @@ void runUniQueueSimulation()
     while(eq.hasNext())
     {
         clck = eq.getData()->getTime();
-        //cout << "Event time: " << clck << endl;
+        if (DEBUG) cout << "Event time: " << clck << endl;
         eq.getData()->onCompletion(&eq);
-        //printCustomers(tellers);
+        if (DEBUG) printCustomers(tellers);
         eq = *(eq.next);
-        //getchar();
+        if (DEBUG) getchar();
     }
 
 
@@ -157,22 +164,22 @@ void TellerEvent::onCompletion(EventQueue* e)
         int ra = 151+rand()%150;
         te->setTime(clck+ra);
         e->insert(te);
-        //cout << "Due to lack of customers, the teller in queue " << queue << " has gone idle for " << ra << " seconds" << endl;
+        if (DEBUG) cout << "Due to lack of customers, the teller in queue " << queue << " has gone idle for " << ra << " seconds" << endl;
         idleTime += ra;
     }
     else
     { //there is a customer in line
         instMax(clck-startTimes[pos]);
         int ra = rand()%ast;
-        //cout << "this "<<pos<<"th customer entered the bank at time: " << startTimes[pos] << endl;
+        if (DEBUG) cout << "this "<<pos<<"th customer entered the bank at time: " << startTimes[pos] << endl;
         startTimes[pos] = clck+ra-startTimes[pos];
-        //cout << "this customer was in the bank for " << startTimes[pos] << " seconds" << endl;
+        if (DEBUG) cout << "this customer was in the bank for " << startTimes[pos] << " seconds" << endl;
         CustomerEvent* ce = new CustomerEvent(1, queue, pos);
         pos++;
         ce->setTime(ra+clck);
         e->insert(ce);
-        //cout << "a customer in queue " << queue << " is being serviced by the bank" << endl;
-        //cout << "    this will take " << ra << " seconds" << endl;
+        if (DEBUG) cout << "a customer in queue " << queue << " is being serviced by the bank" << endl;
+        if (DEBUG) cout << "    this will take " << ra << " seconds" << endl;
         serviceTime += ra;
         decriment(queue);
     }
@@ -184,7 +191,7 @@ void CustomerEvent::onCompletion(EventQueue* e)
     { //entering
         increment(getShortestLine());
         startTimes[inspos] = clck;
-        //cout << "a new customer has entered with id "<<inspos<<" into queue " << getShortestLine() << endl;
+        if (DEBUG) cout << "a new customer has entered with id "<<inspos<<" into queue " << getShortestLine() << endl;
         inspos++;
     }
     else
@@ -192,8 +199,8 @@ void CustomerEvent::onCompletion(EventQueue* e)
         TellerEvent* te = new TellerEvent(queue);
         te->setTime(clck);
         e->insert(te);
-        //cout << "a customer has left the bank" << endl;
-        //cout << "there are " << getVal(queue) << " customers in line " << queue << endl;
+        if (DEBUG) cout << "a customer has left the bank" << endl;
+        if (DEBUG) cout << "there are " << getVal(queue) << " customers in line " << queue << endl;
     }
 }
 
