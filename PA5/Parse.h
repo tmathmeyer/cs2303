@@ -47,12 +47,12 @@ class ParseTree
 			operation = op;
 		}
 		
-		ParseTree(ParseTree* le, ParseTree* ri, char op)
+		ParseTree(ParseTree* le, ParseTree* ri, char* op)
 		{
 			r = NULL;
 			left = le;
 			right = ri;
-			switch(op)
+			switch(*op)
 			{
 				case '+' :
 					operation = 1;

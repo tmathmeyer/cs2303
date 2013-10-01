@@ -2,6 +2,7 @@
 #include "Parse.h"
 #include <iostream>
 #include <fstream>
+#include <stdio.h>
 
 using namespace std;
 
@@ -15,6 +16,23 @@ istream& operator >> (istream& is, rational& r)
 	r.setDenominator(b);
 	return is;
 }
+
+istream& operator >> (istream& is, ParseTree& t)
+{
+	rational a;
+	rational b;
+	char c;
+
+	is >> a >> b >> c;
+	ParseTree m(&a);
+	ParseTree n(&b);
+
+	t(&m, &n, &c);
+	return is;
+}
+
+
+
 
 
 int main()
