@@ -27,4 +27,6 @@ class rational
 		rational(int a, int b);
 		void setNumerator(int a);
 		void setDenominator(int b);
+		int getNumerator();
+		int getDenominator();
 };

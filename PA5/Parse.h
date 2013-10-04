@@ -1,5 +1,7 @@
 #include <stdlib.h>
 
+class ParseStack;
+
 class ParseTree
 {
 	private:
@@ -15,21 +17,23 @@ class ParseTree
 				switch(operation)
 				{
 					case 1: //+
-						return left->eval() + right->eval();
+						return right->eval() + left->eval();
 						break;
 					case 2: //-
-						return left->eval() - right->eval();
+						return right->eval() - left->eval();
 						break;
 					case 3: //*
-						return left->eval() * right->eval();
+						return right->eval() * left->eval();
 						break;
 					case 4: // '/'
-						return left->eval() / right->eval();
+						return right->eval() / left->eval();
 						break;
 				}
 			}
 			return *r;
 		}
+
+		void print();
 
 		ParseTree(rational* ra)
 		{
@@ -37,6 +41,14 @@ class ParseTree
 			right = NULL;
 			operation = 0;
 			r = ra;
+		}
+
+		ParseTree()
+		{
+			left = NULL;
+			right = NULL;
+			operation = 0;
+			r = NULL;
 		}
 
 		ParseTree(ParseTree* le, ParseTree* ri, int op)
@@ -68,6 +80,53 @@ class ParseTree
 					break;
 				default:
 					operation = 0;
+					break;
 			}
 		}
+};
+
+class StackElement
+{
+	public:
+		StackElement* rest;
+		ParseTree* elem;
+		StackElement(ParseTree* pt)
+		{
+			elem = pt;
+			rest = NULL;
+		}
+};
+
+class ParseStack
+{
+	private:
+		StackElement* head;
+
+	public:
+		void insert(ParseTree* elem)
+		{
+			StackElement* se = new StackElement(elem);
+			se->rest = head;
+			head = se;
+		}
+		ParseTree* pop()
+		{
+			if (head == NULL)
+			{
+				return NULL;
+			}
+			ParseTree* result = head->elem;
+			StackElement* temp = head->rest;
+			head->rest = NULL;
+			head->elem = NULL;
+			head = NULL;
+			head = temp;
+
+			return result;
+		}
+		ParseStack()
+		{
+			head = NULL;
+		}
+
 };

@@ -38,6 +38,7 @@ void rational::normalize()
 
 int rational::gcd(int a, int b)
 {
+	if (a==0 || b==0) return 1;
 	if (a<0) return gcd(a*-1, b);
 	if (b<0) return gcd(a, b*-1);
 	if (a < b) return gcd(b, a);
@@ -49,22 +50,6 @@ double rational::toDouble()
 {
 	return ((double)num) / ((double) denom);
 }
-
-//int main()
-//{
-//	rational r(1, 2);
-//	rational k(2, 1);
-//
-//	rational z = r-k;
-//	r += z;
-//
-//	cout << r.toDouble() << endl;
-//}
-
-
-
-
-
 
 rational rational::operator +  (const rational r)
 {
@@ -118,6 +103,16 @@ int rational::operator <= (const rational r)
 int rational::operator != (const rational r)
 {
  	return r.num*denom != num*r.denom;
+}
+
+int rational::getNumerator()
+{
+	return num;
+}
+
+int rational::getDenominator()
+{
+	return denom;
 }
 
 void rational::operator =  (const rational r)
