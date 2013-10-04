@@ -1,4 +1,5 @@
 #include <stdlib.h>
+#include <exception>
 
 class ParseStack;
 
@@ -9,31 +10,93 @@ class ParseTree
 		ParseTree* right;
 		rational* r;
 		int operation;
+		int type; // 1-> rational
+		  		  // 2-> bool
+				  // 3-> error
+				  // 4-> rational w/assignment
+		int boolean;
+
+
 	public:
-		rational eval()
+		int getType()
 		{
-			if (left != NULL   &&   right != NULL   &&   operation > 0   && operation < 5)
-			{
-				switch(operation)
-				{
-					case 1: //+
-						return right->eval() + left->eval();
-						break;
-					case 2: //-
-						return right->eval() - left->eval();
-						break;
-					case 3: //*
-						return right->eval() * left->eval();
-						break;
-					case 4: // '/'
-						return right->eval() / left->eval();
-						break;
-				}
-			}
-			return *r;
+			return type;
 		}
 
-		void print();
+		void setType(int t)
+		{
+			type = t;
+		}
+
+		rational* getRational()
+		{
+			return r;
+		}
+
+		rational eval()
+		{
+			try
+			{
+				if (left != NULL   &&   right != NULL   &&   operation > 0   && operation < 5)
+				{
+					switch(operation)
+					{
+						case 1: //+
+							type = 1;
+							return (right->eval() + left->eval());
+							break;
+						case 2: //-
+							type = 1;
+							return (right->eval() - left->eval());
+							break;
+						case 3: //*
+							type = 1;
+							return (right->eval() * left->eval());
+							break;
+						case 4: // '/'
+							type = 1;
+							return (right->eval() / left->eval());
+							break;
+						case 5: // >
+							type = 2;
+							return *r;
+							break;
+
+						case 6: // <
+						case 7: // >=
+						case 8: // <=
+						case 9: // !=
+						case 10: // ==
+						case 11: // =
+						default:
+							type = 3;
+							break;
+					}
+				}
+				if (r == NULL)
+				{
+					rational* err = new rational(1,0);
+					return *err;
+				}
+				return *r;
+			}
+			catch (std::exception& e)
+			{
+				rational* err = new rational(1,0);
+				return *err;
+			}
+			
+		}
+
+		void setEval()
+		{
+			rational k = eval();
+			if (k.getDenominator() == 0)
+			{
+				type = 3;
+			}
+			r = new rational(k.getNumerator(), k.getDenominator());
+		}
 
 		ParseTree(rational* ra)
 		{
@@ -122,6 +185,10 @@ class ParseStack
 			head = NULL;
 			head = temp;
 
+			if (result == NULL)
+			{
+				throw 1;
+			}
 			return result;
 		}
 		ParseStack()

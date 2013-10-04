@@ -1,10 +1,17 @@
-#include "rational.h"
-#include "Variable.h"
+#include "Rational.h"
+#include "Variables.h"
+#include <stdlib.h>
 
 class Variable
 {
-	char name;
-	rational* value;
+	public:
+		char name;
+		rational* value;
+		Variable(char c, rational* v)
+		{
+			name = c;
+			value = v;
+		}
 };
 
 class VariableTree
@@ -48,7 +55,7 @@ class VariableTree
 			{
 				if (data == NULL)
 				{
-					return NULL;
+					 return *(data->value);
 				}
 				return *(data->value);
 			}
@@ -56,7 +63,7 @@ class VariableTree
 			{
 				if (right == NULL)
 				{
-					return NULL;
+					return *(data->value);
 				}
 				return right->getValue(c);
 			}
@@ -64,7 +71,7 @@ class VariableTree
 			{
 				if (left == NULL)
 				{
-					return NULL;
+					return *(data->value);
 				}
 				return left->getValue(c);
 			}

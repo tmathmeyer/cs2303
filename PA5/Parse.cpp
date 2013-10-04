@@ -4,28 +4,12 @@
 #include <fstream>
 #include <stdio.h>
 #include <ctype.h>
+#include <exception>
 
 using namespace std;
 int end_of_file = 0;
 int is_math(char c);
-
-void ParseTree::print()
-{
-	if (r != NULL)
-	{
-		cout << r->getNumerator() << "/" << r->getDenominator();
-	}
-	else if (left != NULL && right != NULL)
-	{
-		cout << "(";
-		left->print();
-		cout << " &" << operation << "& ";
-		right->print();
-		cout << ")";
-	}
-}
-
-
+int is_bool_assignment(char c);
 
 istream& operator >> (istream& is, rational& r)
 {
@@ -52,61 +36,72 @@ istream& operator >> (istream& is, ParseTree& t)
 
 	ParseStack* s = new ParseStack();
 	int something = 0;
-
-	while (is.get(c))
+	try
 	{
-		something = 1;
-		if (c!='\n')
+		while (is.get(c))
 		{
-			cout << c;
-		}
-
-		if (isdigit(c))
-		{
-			if (pos_control == 1 || pos_control == 0)
+			something = 1;
+			if (c!='\n')
 			{
-				num*=10;
-				num+=(c-'0');
-				pos_control = 1;
+				cout << c;
 			}
-			else
+
+			if (isdigit(c))
 			{
-				denom*=10;
-				denom+=(c-'0');
+				if (pos_control == 1 || pos_control == 0)
+				{
+					num*=10;
+					num+=(c-'0');
+					pos_control = 1;
+				}
+				else
+				{
+					denom*=10;
+					denom+=(c-'0');
+					pos_control = 2;
+				}
+			}
+			else if (c == '/' && pos_control == 1)
+			{
 				pos_control = 2;
 			}
-		}
-		else if (c == '/' && pos_control == 1)
-		{
-			pos_control = 2;
-		}
-		else if (c == ' ')
-		{
-			if (pos_control == 2)
+			else if (c == ' ')
 			{
-				rational* r = new rational(num, denom);
-				ParseTree* pt = new ParseTree(r);
-				s->insert(pt);
-				num = 0;
-				denom = 0;
+				if (pos_control == 2)
+				{
+					rational* r = new rational(num, denom);
+					ParseTree* pt = new ParseTree(r);
+					s->insert(pt);
+					num = 0;
+					denom = 0;
+				}
+
+				pos_control = 0;
 			}
+			else if (is_math(c))
+			{
+				ParseTree* a = s->pop();
+				ParseTree* b = s->pop();
 
-			pos_control = 0;
-		}
-		else if (is_math(c))
-		{
-			ParseTree* a = s->pop();
-			ParseTree* b = s->pop();
+				ParseTree* n = new ParseTree(a, b, &c);
+				s->insert(n);
+			}
+			else if (is_bool_assignment(c))
+			{
 
-			ParseTree* n = new ParseTree(a, b, &c);
-			s->insert(n);
+			}
+			else if (c == '\n')
+			{
+				t = *(s->pop());
+				cout << "\t: ";
+				return is;
+			}
 		}
-		else if (c == '\n')
-		{
-			t = *(s->pop());
-			cout << "\t: ";
-			return is;
-		}
+	}
+	catch (int n)
+	{
+		t.setType(3);
+		cout << "HAHAH YESS" << endl;
 	}
 
 
@@ -120,10 +115,29 @@ istream& operator >> (istream& is, ParseTree& t)
 	return is;
 }
 
+ostream& operator << (ostream& os, ParseTree& t)
+{
+	if (t.getType() == 1 || t.getType() == 4)
+	{
+		os << t.getRational()->getNumerator() << "/" << t.getRational()->getDenominator() << " (double " << t.getRational()->toDouble() << ")" << endl;
+	}
+	else if (t.getType() == 3)
+	{
+		cout << "There is an error on this line" << endl;
+	}
+
+	return os;
+}
+
 
 int is_math(char c)
 {
 	return (c=='+') || (c=='*') || (c=='/') || (c=='-');
+}
+
+int is_bool_assignment(char c)
+{
+	return (c=='!') || (c=='=') || (c=='>') || (c=='<');
 }
 
 int main()
@@ -137,8 +151,9 @@ int main()
 		myfile >> t;
 		if (!end_of_file)
 		{
-			rational r = t.eval();
-			cout << r.getNumerator() << "/" << r.getDenominator() << " (double " << r.toDouble() << ")" << endl;
+			t.setEval();
+			cout << t;
+			//cout << r.getNumerator() << "/" << r.getDenominator() << " (double " << r.toDouble() << ")" << endl;
 		}
 	} while(!end_of_file);
 }

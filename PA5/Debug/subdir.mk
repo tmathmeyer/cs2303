@@ -5,15 +5,18 @@
 # Add inputs and outputs from these tool invocations to the build variables 
 CPP_SRCS += \
 ../Parse.cpp \
-../Rational.cpp 
+../Rational.cpp \
+../Variables.cpp 
 
 OBJS += \
 ./Parse.o \
-./Rational.o 
+./Rational.o \
+./Variables.o 
 
 CPP_DEPS += \
 ./Parse.d \
-./Rational.d 
+./Rational.d \
+./Variables.d 
 
 
 # Each subdirectory must supply rules for building sources it contributes

@@ -117,8 +117,8 @@ int rational::getDenominator()
 
 void rational::operator =  (const rational r)
 {
-	num = r.num;
-	denom = r.denom;
+	this->num = r.num;
+	this->denom = r.denom;
 	normalize();
 }
 
