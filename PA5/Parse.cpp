@@ -101,7 +101,6 @@ istream& operator >> (istream& is, ParseTree& t)
 	catch (int n)
 	{
 		t.setType(3);
-		cout << "HAHAH YESS" << endl;
 	}
 
 
