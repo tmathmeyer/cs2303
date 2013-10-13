@@ -4,10 +4,14 @@
 #include <list>
 #include <time.h>
 #include <iostream>
+#include <stdio.h>
 
 using namespace std;
 
-
+int get_random(int min, int max)
+{
+	return ((double) rand() / (RAND_MAX)) * (max-min+1) + min;
+}
 
 
 list<DoodleBug*>* iterate_doodles(list<DoodleBug*>* bugs, grid* g)
@@ -20,47 +24,80 @@ list<DoodleBug*>* iterate_doodles(list<DoodleBug*>* bugs, grid* g)
 		int y = (*iterator)->get_y();
 
 
-		// LALALALA this moves the doodle bug
-		for(int i = -1; i < 2; i++)
-		{
-			for(int j = -1; j < 2; j++)
-			{
-				if (j != 0 || i != 0)
-				{
-					try
-					{
-						int ant = g->organism_at(x+i, y+j)->get_satiation();
-						if (ant < 0 && ant > -9000)
-						{
-							g->organism_at(x+i, y+j)->set_sat(-2); // mark the ant for deletion
-							g->put_organism(x+i, y+j, *iterator); // move the doodle
-							g->put_organism(x, y, new GhostBug(x, y)); // replace the doodle with a ghost
-							(*iterator)->set_x(x+i); // update doodle's position
-							(*iterator)->set_y(y+j); // update doodle's position
-							(*iterator)->set_sat(3); // feeeeeeeeeed me
-							i=3;
-							j=3;
-						}
-					}
-					catch(int err)
-					{}
-				}
-			}
-		}
 
 		//this starves the doodlebug
 		if ((*iterator)->get_satiation() == 0)
 		{
 			g->put_organism(x, y, new GhostBug(x, y));
+			cout << "a doodlebug has starved!" << endl;
 		}
 		else
 		{
-			result->push_back(*iterator);
+			list<Organism*>* empty_spots = g->get_occupied_surrounding(x, y);
+			list<Organism*>* non_empty_spots = g->get_unoccupied_surrounding(x, y);
+
+			if (empty_spots->size() != 0)
+			{
+				list<Organism*>::const_iterator surrounding_iterator;
+				int move_to = get_random(0, empty_spots->size()-1);
+				int c = 0;
+				for (surrounding_iterator = empty_spots->begin(); surrounding_iterator != empty_spots->end(); ++surrounding_iterator)
+				{
+					if (c == move_to)
+					{
+						int xx = (*surrounding_iterator)->get_x();
+						int yy = (*surrounding_iterator)->get_y();
+						cout << "the doodle at (" << x << ", " << y << ") ate an ant" << endl;
+						cout << " which was at (" << xx << ", " << yy << ") "<<endl;
+
+						(*surrounding_iterator)->set_sat(-2);
+						(*iterator)->set_sat(3);
+
+						DoodleBug* eater = new DoodleBug(xx, yy);
+						eater->set_breed(g->organism_at(x, y)->get_breed()+1);
+						g->put_organism(x, y, new GhostBug(x, y));
+						g->put_organism(xx, yy, eater);
+
+						cout << "eater is a: " << eater->get_rep()<<endl;
+
+						c+=9;
+						result->push_back(eater);
+					}
+					c++;
+				}
+			}
+			else
+			{
+				list<Organism*>::const_iterator surrounding_iterator;
+				int move_to = get_random(0, non_empty_spots->size()-1);
+				int c = 0;
+				for (surrounding_iterator = non_empty_spots->begin(); surrounding_iterator != non_empty_spots->end(); ++surrounding_iterator)
+				{
+					if (c == move_to)
+					{
+						int xx = (*surrounding_iterator)->get_x();
+						int yy = (*surrounding_iterator)->get_y();
+
+						DoodleBug* eater = new DoodleBug(xx, yy);
+						eater->set_breed(g->organism_at(x, y)->get_breed()+1);
+						eater->set_sat(g->organism_at(x, y)->get_satiation()-1);
+
+						g->put_organism(x, y, new GhostBug(x, y));
+						g->put_organism(xx, yy, eater);
+						c+=9;
+						result->push_back(eater);
+					}
+					c++;
+				}
+			}
+
+
 
 			// this breeds the doodlebug
 			if ((*iterator)->get_breed() == 7)
 			{
-				list<Organism*>* surroundings = g->get_surrounding(x, y);
+				cout << "a doodlebug has bred!"<<endl;
+				list<Organism*>* surroundings = g->get_unoccupied_surrounding(x, y);
 				list<Organism*>::const_iterator surrounding_iterator;
 				for (surrounding_iterator = surroundings->begin(); surrounding_iterator != surroundings->end(); ++surrounding_iterator)
 				{
@@ -81,11 +118,7 @@ list<DoodleBug*>* iterate_doodles(list<DoodleBug*>* bugs, grid* g)
 				}
 			}
 
-			cout << x << " " << y << endl;
-			cout << "  b:" << (*iterator)->get_breed() << endl;
-			cout << "  s:" << (*iterator)->get_satiation() << endl;
-			(*iterator)->set_breed((*iterator)->get_breed()+1);
-			(*iterator)->set_sat((*iterator)->get_satiation()-1);
+
 		}
 	}
 
@@ -98,37 +131,67 @@ list<DoodleBug*>* iterate_doodles(list<DoodleBug*>* bugs, grid* g)
 list<Ant*>* iterate_ants(list<Ant*>* ants, grid* g)
 {
 	list<Ant*>* result = new list<Ant*>();
-		list<Ant*>::const_iterator iterator;
+	list<Ant*>::const_iterator iterator;
 
-		for (iterator = ants->begin(); iterator != ants->end(); ++iterator)
+	for (iterator = ants->begin(); iterator != ants->end(); ++iterator)
+	{
+		int x = (*iterator)->get_x();
+		int y = (*iterator)->get_y();
+		if ((*iterator)->get_satiation() != -2)
 		{
-			int x = (*iterator)->get_x();
-			int y = (*iterator)->get_y();
-
 			list<Organism*>* empty_spots = g->get_unoccupied_surrounding(x, y);
-			list<Organism*>::const_iterator e_i;
-			int to_move = get_random(0, empty_spots->size());
-			e_i+=to_move;
-			int xx = (*e_i)->get_x();
-			int yy = (*e_i)->get_y();
-			g->put_organism(xx, yy, *iterator); // move the and
-			g->put_organism(x, y, new GhostBug(x, y));
-			(*iterator)->set_x(xx);
-			(*iterator)->set_y(yy);
+			list<Organism*>::const_iterator surrounding_iterator;
+			int move_to = get_random(0, empty_spots->size()-1);
+			int c = 0;
+			result->push_back(*iterator);
+			for (surrounding_iterator = empty_spots->begin(); surrounding_iterator != empty_spots->end(); ++surrounding_iterator)
+			{
+				if (c == move_to)
+				{
+					int xx = (*surrounding_iterator)->get_x();
+					int yy = (*surrounding_iterator)->get_y();
+					g->put_organism(xx, yy, *iterator); // move the ant
+					g->put_organism(x, y, new GhostBug(x, y));
+					(*iterator)->set_x(xx);
+					(*iterator)->set_y(yy);
+				}
+				c++;
+			}
 
+
+			if ((*iterator)->get_breed() >= 2)
+			{
+				(*iterator)->set_breed(-1);
+				c = 0;
+				x = (*iterator)->get_x();
+				y = (*iterator)->get_y();
+				list<Organism*>* new_spots = g->get_unoccupied_surrounding(x, y);
+				list<Organism*>::const_iterator spawn_locations;
+				int spawn_in = get_random(0, new_spots->size());
+				for (spawn_locations = new_spots->begin(); spawn_locations != new_spots->end(); ++spawn_locations)
+				{
+					if (c == spawn_in)
+					{
+						int xx = (*spawn_locations)->get_x();
+						int yy = (*spawn_locations)->get_y();
+						Ant* spawn = new Ant(xx, yy);
+						g->put_organism(xx, yy, spawn);
+						result->push_back(spawn);
+					}
+					c++;
+				}
+			}
+
+
+			(*iterator)->set_breed((*iterator)->get_breed()+1);
+		}
+	}
 	return result;
 }
 
 
-
-int get_random(int min, int max)
-{
-	return ((double) rand() / (RAND_MAX)) * (max-min+1) + min;
-}
-
 void doodle(grid* g, int count, list<DoodleBug*>* db)
 {
-	srand(time(NULL));
 	int c = 0;
 	int size = g->get_size()-1;
 	while(c < count)
@@ -154,7 +217,6 @@ void doodle(grid* g, int count, list<DoodleBug*>* db)
 
 void ant(grid* g, int count, list<Ant*>* ants)
 {
-	srand(time(NULL));
 	int c = 0;
 	int size = g->get_size()-1;
 	while(c < count)
@@ -222,9 +284,10 @@ ostream& operator << (ostream& os, grid& g)
 
 int main()
 {
-	int DEFAULT_SIZE = 20;
-	int DOODLE_DEFAULT = 5;
-	int ANT_DEFAULT = 200;
+	srand(7);
+	int DEFAULT_SIZE = 5;
+	int DOODLE_DEFAULT = 3;
+	int ANT_DEFAULT = 10;
 
 	list<Ant*>* a = new list<Ant*>();
 	list<DoodleBug*>* d = new list<DoodleBug*>();
@@ -242,28 +305,15 @@ int main()
 
 
 	cout << g;
-	d = iterate_doodles(d, &g);
-	cout << g;
-	d = iterate_doodles(d, &g);
-	cout << g;
-	d = iterate_doodles(d, &g);
-	cout << g;
-	d = iterate_doodles(d, &g);
-	cout << g;
-	d = iterate_doodles(d, &g);
-	cout << g;
-	d = iterate_doodles(d, &g);
-	cout << g;
-	d = iterate_doodles(d, &g);
-	cout << g;
-	d = iterate_doodles(d, &g);
-	cout << g;
-	d = iterate_doodles(d, &g);
-	cout << g;
-	d = iterate_doodles(d, &g);
-	cout << g;
-	d = iterate_doodles(d, &g);
-	cout << g;
-	d = iterate_doodles(d, &g);
-	cout << g;
+	int c = 0;
+	while(c < 30)
+	{
+		d = iterate_doodles(d, &g);
+		cout << g;
+		//a = iterate_ants(a, &g);
+		getchar();
+		cout << g;
+		c++;
+	}
+	return 0;
 }

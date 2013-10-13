@@ -36,8 +36,8 @@ list<Organism*>* grid::get_occupied_surrounding(int x, int y)
 				try
 				{
 					Organism* q = organism_at(x+i, y+j);
-					if (q->get_satiation() != -9001)
-					{ // not a ghost bug
+					if (q->get_satiation() == -1)
+					{ // get ze ants
 						result->push_back(q);
 					}
 				}

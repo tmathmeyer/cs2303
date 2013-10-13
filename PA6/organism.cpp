@@ -76,7 +76,7 @@ void Ant::move()
 }
 int Ant::get_breed()
 {
-	return breed>3?1:0;
+	return breed;
 }
 int Ant::get_satiation()
 {
