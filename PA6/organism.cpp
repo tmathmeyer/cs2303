@@ -42,12 +42,17 @@ void DoodleBug::set_sat(int s)
 {
 	satiation = s;
 }
-DoodleBug::DoodleBug(int a, int b)
+int DoodleBug::get_ID()
+{
+	return id;
+}
+DoodleBug::DoodleBug(int a, int b, int i)
 {
 	x = a;
 	y = b;
 	satiation = 3;
 	breed = 0;
+	id = i;
 }
 
 
@@ -92,10 +97,15 @@ int Ant::set_breed(int a)
 }
 void Ant::set_sat(int s)
 {}
-Ant::Ant(int a, int b)
+int Ant::get_ID()
+{
+	return id;
+}
+Ant::Ant(int a, int b, int i)
 {
 	x = a;
 	y = b;
+	id = i;
 	breed = 0;
 }
 
@@ -134,13 +144,15 @@ char GhostBug::get_rep()
 }
 int GhostBug::set_breed(int a)
 {
-	return breed = a;
 }
 void GhostBug::set_sat(int s)
 {}
+int GhostBug::get_ID()
+{
+	return -1;
+}
 GhostBug::GhostBug(int a, int b)
 {
 	x = a;
 	y = b;
-	breed = 0;
 }

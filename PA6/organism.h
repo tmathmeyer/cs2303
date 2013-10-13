@@ -13,6 +13,7 @@ class Organism{
 		virtual int  get_satiation()  = 0;
 		virtual void set_sat(int s)   = 0;
 		virtual char get_rep()        = 0;
+		virtual int  get_ID()         = 0;
 };
 
 class DoodleBug : public Organism {
@@ -21,6 +22,7 @@ class DoodleBug : public Organism {
 		int y;
 		int breed;
 		int satiation; //dictionary time!
+		int id;
 	public:
 		int get_x();
 		int get_y();
@@ -32,7 +34,8 @@ class DoodleBug : public Organism {
 		int get_satiation();
 		char get_rep();
 		int  set_breed(int a);
-		DoodleBug(int x, int y);
+		int  get_ID();
+		DoodleBug(int x, int y, int i);
 };
 
 class Ant : public Organism {
@@ -40,6 +43,7 @@ class Ant : public Organism {
 		int x;
 		int y;
 		int breed;
+		int id;
 	public:
 		int get_x();
 		int get_y();
@@ -51,14 +55,14 @@ class Ant : public Organism {
 		int get_satiation();
 		char get_rep();
 		int  set_breed(int a);
-		Ant(int x, int y);
+		int  get_ID();
+		Ant(int x, int y, int i);
 };
 
 class GhostBug : public Organism {
 	private:
 		int x;
 		int y;
-		int breed;
 	public:
 		int get_x();
 		int get_y();
@@ -70,6 +74,7 @@ class GhostBug : public Organism {
 		int get_satiation();
 		char get_rep();
 		int  set_breed(int a);
+		int  get_ID();
 		GhostBug(int x, int y);
 };
 
